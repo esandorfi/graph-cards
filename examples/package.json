@@ -4,11 +4,9 @@
   "description": "Example usage of the graph-cards library",
   "main": "sample-usage.js",
   "scripts": {
-
     "demo": "npm run demo.dance && npm run demo.emotions",
     "demo.dance": "node demo-dataset.js choreographers",
     "demo.emotions": "node demo-dataset.js emotions"
-
   },
   "dependencies": {
     "graph-cards": "file:.."

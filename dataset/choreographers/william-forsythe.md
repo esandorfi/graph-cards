@@ -5,6 +5,7 @@ William Forsythe is an American choreographer who revolutionized ballet through 
 He was influenced by [[George Balanchine]]'s neoclassical approach and [[Merce Cunningham]]'s experimental methods. His work bridges [[Pina Bausch]]'s theatrical innovation with ballet's formal structure.
 
 ## Techniques
+
 - Improvisation technologies
   - Real-time composition
   - Instant decision-making
@@ -17,6 +18,7 @@ He was influenced by [[George Balanchine]]'s neoclassical approach and [[Merce C
   - Off-balance positions
 
 ## Major Works
+
 - "In the Middle Somewhat Elevated" (1987)
 - "Impressing the Czar" (1988)
 - "Enemy in the Figure" (1989)

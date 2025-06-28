@@ -5,6 +5,7 @@ Gratitude is a positive emotion that arises from recognizing and appreciating be
 Gratitude connects to [[appreciation]], [[thankfulness]], and often leads to [[joy]], [[contentment]], and [[love]]. It can transform [[bitterness]] and enhance overall well-being.
 
 ## Components of Gratitude
+
 - Recognition
   - Awareness of benefits
   - Identification of sources
@@ -19,6 +20,7 @@ Gratitude connects to [[appreciation]], [[thankfulness]], and often leads to [[j
   - Strengthened relationships
 
 ## Types of Gratitude
+
 - Personal gratitude
   - For relationships and [[love]]
   - For opportunities and experiences
@@ -29,6 +31,7 @@ Gratitude connects to [[appreciation]], [[thankfulness]], and often leads to [[j
   - For moments of [[peace]]
 
 ## Effects on Well-being
+
 - Emotional benefits: increased [[happiness]], reduced [[depression]]
 - Social benefits: stronger relationships, increased [[empathy]]
 - Physical benefits: better sleep, improved immune function

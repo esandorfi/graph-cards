@@ -5,6 +5,7 @@ Akram Khan is a British-Bangladeshi choreographer who creates powerful contempor
 Trained in Kathak from age 7 and later studied with [[Martha Graham]] technique teachers. He was influenced by [[Pina Bausch]]'s emotional intensity and [[William Forsythe]]'s contemporary innovations.
 
 ## Techniques
+
 - Kathak-contemporary fusion
   - Classical Indian footwork
   - Spiral movements
@@ -17,6 +18,7 @@ Trained in Kathak from age 7 and later studied with [[Martha Graham]] technique 
   - Cultural dialogue
 
 ## Signature Works
+
 - "DESH" (2011) - autobiographical solo
 - "Giselle" (2016) - English National Ballet
   - Reinterpreted classic

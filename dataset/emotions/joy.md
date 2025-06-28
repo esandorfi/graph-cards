@@ -5,6 +5,7 @@ Joy is a feeling of great pleasure, happiness, and delight that arises from a se
 Joy often connects to [[happiness]], [[excitement]], and [[contentment]], but differs in its intensity and spontaneous nature. It can transform into [[euphoria]] in extreme cases or settle into [[serenity]] over time.
 
 ## Characteristics
+
 - Physical manifestations
   - Smiling and laughter
   - Increased energy
@@ -15,6 +16,7 @@ Joy often connects to [[happiness]], [[excitement]], and [[contentment]], but di
   - Enhanced memory
 
 ## Related Emotions
+
 - Primary connections: [[happiness]], [[delight]], [[bliss]]
 - Opposite spectrum: [[sadness]], [[despair]], [[melancholy]]
 - Transitional states: [[excitement]] → joy → [[contentment]]

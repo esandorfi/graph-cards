@@ -24,21 +24,25 @@ npm run demo.emotions # Emotions
 The `demo-output.js` program demonstrates:
 
 ### 📊 **Dataset Analysis**
+
 - Parses both choreographers and emotions markdown datasets
 - Generates comprehensive analytics (node count, edge count, density, etc.)
 - Identifies strongly connected components and pathfinding
 
 ### 🔍 **Individual Card Exploration**
+
 - Deep-dives into specific cards (Martha Graham, Merce Cunningham, Joy, Anger)
 - Shows links, backlinks, tags, and connection types
 - Demonstrates relationship mapping
 
 ### 🤝 **Combined Dataset Analysis**
+
 - Merges both datasets into a single graph
 - Tests cross-dataset connectivity
 - Compares dataset characteristics
 
 ### 💾 **Export Demonstrations**
+
 - Exports graphs to JSON, DOT (Graphviz), and Mermaid formats
 - Creates visualization-ready files in `./outputs/` directory
 - Provides commands for generating visual graphs
@@ -100,7 +104,7 @@ dot -Tpng outputs/choreographers-graph.dot -o choreographers.png
 ## Key Learning Points
 
 1. **Rich Interconnections**: Choreographers show higher density due to historical influences
-2. **Emotional Networks**: Emotions demonstrate psychological relationship patterns  
+2. **Emotional Networks**: Emotions demonstrate psychological relationship patterns
 3. **Domain Separation**: Datasets remain separate unless explicitly cross-referenced
 4. **Export Flexibility**: Multiple formats support different visualization tools
 5. **Graph Analytics**: Comprehensive metrics reveal network characteristics
@@ -108,6 +112,7 @@ dot -Tpng outputs/choreographers-graph.dot -o choreographers.png
 ## Extending the Examples
 
 You can modify `demo-output.js` to:
+
 - Add your own markdown datasets
 - Customize parsing patterns (links, tags)
 - Implement custom graph analysis algorithms

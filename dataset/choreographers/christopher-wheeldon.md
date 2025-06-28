@@ -5,6 +5,7 @@ Christopher Wheeldon is a British choreographer who has created acclaimed works 
 Trained at The Royal Ballet School and influenced by [[George Balanchine]]'s musicality and [[Jerome Robbins]]' theatrical sensibility. He also draws from [[Twyla Tharp]]'s crossover innovations.
 
 ## Techniques
+
 - Lyrical neoclassicism
   - Flowing port de bras
   - Complex partnering
@@ -18,6 +19,7 @@ Trained at The Royal Ballet School and influenced by [[George Balanchine]]'s mus
   - Floor work integration
 
 ## Notable Works
+
 - "After the Rain" (2005) - NYCB signature piece
 - "Winter's Tale" (2014) - Royal Opera House
   - Full-length Shakespeare adaptation

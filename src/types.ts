@@ -22,10 +22,10 @@ export interface GraphEdge {
 }
 
 export enum EdgeType {
-  LINK = 'link',
-  BACKLINK = 'backlink',
-  TAG = 'tag',
-  MENTION = 'mention'
+  LINK = "link",
+  BACKLINK = "backlink",
+  TAG = "tag",
+  MENTION = "mention",
 }
 
 export interface Graph {

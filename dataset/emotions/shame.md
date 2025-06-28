@@ -5,11 +5,13 @@ Shame is a painful emotion that involves feeling fundamentally flawed, inadequat
 Shame relates to [[humiliation]], [[embarrassment]], and often masks behind [[anger]], [[depression]], or perfectionism. It can develop into [[self-hatred]] or manifest as social withdrawal.
 
 ## Shame vs Related Emotions
+
 - [[Guilt]]: "I did something bad" vs Shame: "I am bad"
 - [[Embarrassment]]: temporary social discomfort vs persistent self-condemnation
 - [[Regret]]: wish for different choices vs fundamental self-rejection
 
 ## Manifestations
+
 - Internal experience
   - Self-criticism and [[self-hatred]]
   - Feeling exposed or defective
@@ -24,11 +26,13 @@ Shame relates to [[humiliation]], [[embarrassment]], and often masks behind [[an
   - Hunched posture
 
 ## Origins and Triggers
+
 - Early experiences: criticism, rejection, trauma
 - Cultural messages: about worth, success, appearance
 - Comparison: to others' achievements or attributes
 
 ## Healing and Growth
+
 - Developing [[self-compassion]] and [[acceptance]]
 - Building healthy [[vulnerability]] and connection
 - Transforming shame into [[empathy]] for others

@@ -5,6 +5,7 @@ Love is a complex emotion characterized by deep affection, care, and connection 
 Love relates to [[affection]], [[compassion]], and [[attachment]], and can manifest as romantic love, familial love, or universal love. It often co-occurs with [[joy]], [[contentment], and [[gratitude]].
 
 ## Types of Love
+
 - Romantic love
   - [[passion]] and desire
   - Emotional intimacy
@@ -23,6 +24,7 @@ Love relates to [[affection]], [[compassion]], and [[attachment]], and can manif
   - Unconditional acceptance
 
 ## Neurochemical Basis
+
 - Bonding hormones
   - Oxytocin release
   - Dopamine pathways
@@ -33,6 +35,7 @@ Love relates to [[affection]], [[compassion]], and [[attachment]], and can manif
   - Empathy networks
 
 ## Associated Emotions
+
 - Positive connections: [[happiness]], [[security]], [[fulfillment]]
 - Challenges: [[jealousy]], [[heartbreak]], [[vulnerability]]
 - Growth outcomes: [[empathy]], [[generosity]], [[wisdom]]

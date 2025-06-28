@@ -5,6 +5,7 @@ Crystal Pite is a Canadian choreographer known for her emotionally powerful work
 She trained in ballet and contemporary dance, influenced by [[William Forsythe]]'s structural innovations and [[Pina Bausch]]'s emotional depth. Her work also draws from [[Akram Khan]]'s narrative approach.
 
 ## Techniques
+
 - Kinetic architecture
   - Group dynamics
   - Sculptural formations
@@ -18,6 +19,7 @@ She trained in ballet and contemporary dance, influenced by [[William Forsythe]]
   - Sound-movement relationships
 
 ## Major Works
+
 - "Emergence" (2009) - 16 dancers as single organism
 - "The Seasons' Canon" (2016) - with The National Ballet
 - "Betroffenheit" (2015) - with Jonathon Young

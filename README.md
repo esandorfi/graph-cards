@@ -20,12 +20,12 @@ npm install graph-cards
 ## Quick Start
 
 ```typescript
-import { GraphGenerator } from 'graph-cards';
+import { GraphGenerator } from "graph-cards";
 
 const generator = new GraphGenerator();
 
 // Generate graph from a directory of markdown files
-const graph = generator.generateFromDirectory('./my-notes');
+const graph = generator.generateFromDirectory("./my-notes");
 
 // Export to different formats
 const json = generator.exportToJSON(graph);
@@ -34,7 +34,9 @@ const mermaid = generator.exportToMermaid(graph);
 
 // Get analytics
 const analytics = generator.getAnalytics(graph);
-console.log(`Found ${analytics.nodeCount} cards with ${analytics.edgeCount} connections`);
+console.log(
+  `Found ${analytics.nodeCount} cards with ${analytics.edgeCount} connections`,
+);
 ```
 
 ## Markdown Format
@@ -42,16 +44,19 @@ console.log(`Found ${analytics.nodeCount} cards with ${analytics.edgeCount} conn
 The library recognizes these patterns in markdown files:
 
 ### Card Links
+
 ```markdown
 This card links to [[Another Card]] and [[Third Card]].
 ```
 
 ### Tags
+
 ```markdown
 This card has #tag1 and #tag2.
 ```
 
 ### Card Title
+
 ```markdown
 # My Card Title
 
@@ -67,14 +72,14 @@ Main class for generating graphs from markdown files.
 ```typescript
 const generator = new GraphGenerator({
   parser: {
-    linkPattern: /\[\[([^\]]+)\]\]/g,  // Custom link pattern
-    tagPattern: /#([a-zA-Z0-9_-]+)/g,  // Custom tag pattern
+    linkPattern: /\[\[([^\]]+)\]\]/g, // Custom link pattern
+    tagPattern: /#([a-zA-Z0-9_-]+)/g, // Custom tag pattern
   },
   graph: {
-    includeBacklinks: true,    // Include backlink edges
-    includeTags: true,         // Include tag-based connections
-    weightByFrequency: false   // Weight edges by frequency
-  }
+    includeBacklinks: true, // Include backlink edges
+    includeTags: true, // Include tag-based connections
+    weightByFrequency: false, // Weight edges by frequency
+  },
 });
 ```
 
@@ -93,11 +98,11 @@ const generator = new GraphGenerator({
 Parse individual markdown files or directories.
 
 ```typescript
-import { MarkdownParser } from 'graph-cards';
+import { MarkdownParser } from "graph-cards";
 
 const parser = new MarkdownParser();
-const card = parser.parseFile('./my-note.md');
-const cards = parser.parseDirectory('./notes');
+const card = parser.parseFile("./my-note.md");
+const cards = parser.parseDirectory("./notes");
 ```
 
 ### CardGraph
@@ -105,13 +110,13 @@ const cards = parser.parseDirectory('./notes');
 Build and manipulate graph structures.
 
 ```typescript
-import { CardGraph } from 'graph-cards';
+import { CardGraph } from "graph-cards";
 
 const graph = new CardGraph();
 const result = graph.buildGraph(cards);
 
 // Graph analysis
-const shortestPath = graph.getShortestPath('card1', 'card2');
+const shortestPath = graph.getShortestPath("card1", "card2");
 const components = graph.getStronglyConnectedComponents();
 ```
 
@@ -134,10 +139,10 @@ interface Graph {
 }
 
 enum EdgeType {
-  LINK = 'link',
-  BACKLINK = 'backlink',
-  TAG = 'tag',
-  MENTION = 'mention'
+  LINK = "link",
+  BACKLINK = "backlink",
+  TAG = "tag",
+  MENTION = "mention",
 }
 ```
 
@@ -148,24 +153,24 @@ enum EdgeType {
 ```typescript
 const generator = new GraphGenerator({
   parser: {
-    linkPattern: /\[([^\]]+)\]\([^)]+\)/g,  // Standard markdown links
-    tagPattern: /@([a-zA-Z0-9_-]+)/g,       // Use @ for tags instead of #
-  }
+    linkPattern: /\[([^\]]+)\]\([^)]+\)/g, // Standard markdown links
+    tagPattern: /@([a-zA-Z0-9_-]+)/g, // Use @ for tags instead of #
+  },
 });
 ```
 
 ### Export to Visualization Tools
 
 ```typescript
-const graph = generator.generateFromDirectory('./notes');
+const graph = generator.generateFromDirectory("./notes");
 
 // For Graphviz
 const dotContent = generator.exportToDOT(graph);
-fs.writeFileSync('graph.dot', dotContent);
+fs.writeFileSync("graph.dot", dotContent);
 
 // For Mermaid diagrams
 const mermaidContent = generator.exportToMermaid(graph);
-fs.writeFileSync('graph.mmd', mermaidContent);
+fs.writeFileSync("graph.mmd", mermaidContent);
 ```
 
 ## Examples
@@ -176,11 +181,12 @@ See the `examples/` directory for comprehensive demonstrations:
 # Run simple demo
 cd examples && node simple-demo.js
 
-# Run full sample program  
+# Run full sample program
 cd examples && node sample-usage.js
 ```
 
 **Sample Output:**
+
 ```
 🎭 Graph Cards - Simple Demo
 
@@ -201,9 +207,10 @@ cd examples && node sample-usage.js
 ```
 
 The examples demonstrate:
+
 - **Dataset Analysis** - Complete analytics for both sample datasets
 - **Individual Card Exploration** - Deep-dive into specific cards and relationships
-- **Cross-Dataset Analysis** - Combining multiple markdown datasets  
+- **Cross-Dataset Analysis** - Combining multiple markdown datasets
 - **Export Demonstrations** - JSON, DOT, and Mermaid format generation
 - **Pathfinding** - Finding connections between cards across the graph
 
@@ -251,14 +258,18 @@ tests/
 The library includes two comprehensive sample datasets for testing and demonstration:
 
 #### 1. **Choreographers Dataset** (`dataset/choreographers/`)
+
 12 interconnected cards about famous dance choreographers including:
+
 - Martha Graham, George Balanchine, Merce Cunningham
 - Pina Bausch, Jerome Robbins, Alvin Ailey
 - Modern, ballet, and contemporary dance relationships
 - Techniques, signature works, and artistic influences
 
 #### 2. **Emotions Dataset** (`dataset/emotions/`)
+
 12 cards mapping emotional relationships and transitions:
+
 - Core emotions: joy, anger, fear, sadness, love
 - Complex emotions: anxiety, shame, compassion, hope
 - Emotional intensity scales and transformation paths
@@ -268,15 +279,15 @@ The library includes two comprehensive sample datasets for testing and demonstra
 
 ```typescript
 // Test choreographer relationships
-expect(graph).toHaveEdge('martha-graham', 'merce-cunningham');
-expect(graph).toHaveEdge('george-balanchine', 'jerome-robbins');
+expect(graph).toHaveEdge("martha-graham", "merce-cunningham");
+expect(graph).toHaveEdge("george-balanchine", "jerome-robbins");
 
-// Test emotional connections  
-expect(graph).toHaveEdge('joy', 'happiness');
-expect(graph).toHaveEdge('fear', 'anxiety');
+// Test emotional connections
+expect(graph).toHaveEdge("joy", "happiness");
+expect(graph).toHaveEdge("fear", "anxiety");
 
 // Test cross-dataset isolation
-expect(graph.getShortestPath('martha-graham', 'joy')).toEqual([]);
+expect(graph.getShortestPath("martha-graham", "joy")).toEqual([]);
 ```
 
 ### Building and TypeScript

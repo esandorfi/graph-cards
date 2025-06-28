@@ -5,6 +5,7 @@ Curiosity is a positive emotion characterized by the desire to learn, explore, a
 Curiosity connects to [[wonder]], [[interest]], and often leads to [[excitement]] when discoveries are made. It can transform [[boredom]] into engagement and fuel [[enthusiasm]] for learning.
 
 ## Types of Curiosity
+
 - Epistemic curiosity
   - Desire for knowledge
   - Scientific inquiry
@@ -19,6 +20,7 @@ Curiosity connects to [[wonder]], [[interest]], and often leads to [[excitement]
   - Cultural exploration
 
 ## Manifestations
+
 - Cognitive patterns
   - Asking questions
   - Seeking information
@@ -33,6 +35,7 @@ Curiosity connects to [[wonder]], [[interest]], and often leads to [[excitement]
   - [[Wonder]] at complexity
 
 ## Benefits and Growth
+
 - Learning enhancement
   - Improved memory and retention
   - Creative problem-solving

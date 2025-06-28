@@ -5,6 +5,7 @@ Anger is a strong emotional response to perceived threats, injustices, or frustr
 Anger relates closely to [[frustration]], [[irritation]], and can escalate to [[rage]] or [[fury]]. It often masks underlying emotions like [[hurt]], [[fear]], or [[disappointment]].
 
 ## Physiological Response
+
 - Cardiovascular changes
   - Increased heart rate
   - Elevated blood pressure
@@ -15,6 +16,7 @@ Anger relates closely to [[frustration]], [[irritation]], and can escalate to [[
   - Fight-or-flight response
 
 ## Anger Spectrum
+
 - Mild forms: [[annoyance]], [[irritation]]
 - Moderate: anger, [[frustration]]
 - Intense: [[rage]], [[fury]], [[wrath]]
@@ -24,6 +26,7 @@ Anger relates closely to [[frustration]], [[irritation]], and can escalate to [[
   - [[hostility]]
 
 ## Constructive vs Destructive
+
 - Healthy expressions: assertiveness, boundary-setting
 - Problematic patterns: aggression, violence, passive-aggression
 

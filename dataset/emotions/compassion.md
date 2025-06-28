@@ -5,6 +5,7 @@ Compassion is a deep emotional response that involves recognizing suffering in o
 Compassion relates to [[kindness]], [[mercy]], and [[love]], and often emerges from overcoming one's own [[suffering]], [[shame]], or difficult experiences. It can transform [[anger]] into understanding.
 
 ## Components of Compassion
+
 - Recognition
   - Awareness of suffering
   - Understanding of pain
@@ -19,6 +20,7 @@ Compassion relates to [[kindness]], [[mercy]], and [[love]], and often emerges f
   - Sustained commitment
 
 ## Types of Compassion
+
 - Self-compassion
   - Treating oneself with [[kindness]]
   - Self-forgiveness and [[acceptance]]
@@ -33,6 +35,7 @@ Compassion relates to [[kindness]], [[mercy]], and [[love]], and often emerges f
   - Humanitarian action
 
 ## Development and Practice
+
 - Mindfulness: present-moment awareness of suffering
 - [[Empathy]] training: understanding others' perspectives
 - Loving-kindness: cultivating warm feelings for all beings

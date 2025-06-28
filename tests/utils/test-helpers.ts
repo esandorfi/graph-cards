@@ -1,26 +1,32 @@
-import { Card, Graph, GraphEdge, EdgeType } from '../../src/types';
+import { Card, Graph, GraphEdge, EdgeType } from "../../src/types";
 
 export const createMockCard = (overrides: Partial<Card> = {}): Card => ({
-  id: 'test-card',
-  title: 'Test Card',
-  content: 'Test content',
-  filePath: '/test/path.md',
+  id: "test-card",
+  title: "Test Card",
+  content: "Test content",
+  filePath: "/test/path.md",
   tags: [],
   links: [],
   backlinks: [],
-  ...overrides
+  ...overrides,
 });
 
 export const createMockCards = (count: number): Card[] => {
-  return Array.from({ length: count }, (_, i) => createMockCard({
-    id: `card-${i}`,
-    title: `Card ${i}`,
-    content: `Content for card ${i}`,
-    filePath: `/test/card-${i}.md`
-  }));
+  return Array.from({ length: count }, (_, i) =>
+    createMockCard({
+      id: `card-${i}`,
+      title: `Card ${i}`,
+      content: `Content for card ${i}`,
+      filePath: `/test/card-${i}.md`,
+    }),
+  );
 };
 
-export const expectGraphStructure = (graph: Graph, expectedNodes: number, expectedEdges: number) => {
+export const expectGraphStructure = (
+  graph: Graph,
+  expectedNodes: number,
+  expectedEdges: number,
+) => {
   expect(graph.nodes.size).toBe(expectedNodes);
   expect(graph.edges.length).toBe(expectedEdges);
 };
@@ -32,8 +38,13 @@ export const expectNodeExists = (graph: Graph, nodeId: string) => {
   expect(node!.id).toBe(nodeId);
 };
 
-export const expectEdgeExists = (graph: Graph, from: string, to: string, type?: EdgeType) => {
-  const edge = graph.edges.find(e => e.from === from && e.to === to);
+export const expectEdgeExists = (
+  graph: Graph,
+  from: string,
+  to: string,
+  type?: EdgeType,
+) => {
+  const edge = graph.edges.find((e) => e.from === from && e.to === to);
   expect(edge).toBeDefined();
   if (type) {
     expect(edge!.type).toBe(type);
@@ -50,31 +61,36 @@ export const expectCardHasTags = (card: Card, expectedTags: string[]) => {
   expect(card.tags.length).toBe(expectedTags.length);
 };
 
-export const createTestMarkdown = (title: string, content: string, links: string[] = [], tags: string[] = []): string => {
+export const createTestMarkdown = (
+  title: string,
+  content: string,
+  links: string[] = [],
+  tags: string[] = [],
+): string => {
   let markdown = `# ${title}\n\n${content}`;
-  
+
   if (links.length > 0) {
-    markdown += '\n\n';
-    links.forEach(link => {
+    markdown += "\n\n";
+    links.forEach((link) => {
       markdown += `[[${link}]] `;
     });
   }
-  
+
   if (tags.length > 0) {
-    markdown += '\n\n';
-    tags.forEach(tag => {
+    markdown += "\n\n";
+    tags.forEach((tag) => {
       markdown += `#${tag} `;
     });
   }
-  
+
   return markdown;
 };
 
 export const expectValidJSON = (jsonString: string) => {
   expect(() => JSON.parse(jsonString)).not.toThrow();
   const parsed = JSON.parse(jsonString);
-  expect(parsed).toHaveProperty('nodes');
-  expect(parsed).toHaveProperty('edges');
+  expect(parsed).toHaveProperty("nodes");
+  expect(parsed).toHaveProperty("edges");
   expect(Array.isArray(parsed.nodes)).toBe(true);
   expect(Array.isArray(parsed.edges)).toBe(true);
 };
@@ -82,11 +98,11 @@ export const expectValidJSON = (jsonString: string) => {
 export const expectValidDOT = (dotString: string) => {
   expect(dotString).toMatch(/^digraph G \{/);
   expect(dotString).toMatch(/\}$/);
-  expect(dotString).toContain('rankdir=LR');
+  expect(dotString).toContain("rankdir=LR");
 };
 
 export const expectValidMermaid = (mermaidString: string) => {
   expect(mermaidString).toMatch(/^graph TD/);
   expect(mermaidString).toContain('["');
-  expect(mermaidString).toContain('-->');
+  expect(mermaidString).toContain("-->");
 };

@@ -5,6 +5,7 @@ Fear is a primal emotion triggered by the perception of danger, threat, or poten
 Fear connects to [[anxiety]], [[worry]], and [[panic]], forming a spectrum of threat-response emotions. It can intensify into [[terror]] or manifest as specific [[phobia]] patterns.
 
 ## Types of Fear
+
 - Immediate threats
   - Physical danger
   - Sudden stimuli
@@ -19,6 +20,7 @@ Fear connects to [[anxiety]], [[worry]], and [[panic]], forming a spectrum of th
   - Fear of isolation
 
 ## Physical Responses
+
 - Autonomic activation
   - Rapid heartbeat
   - Shallow breathing
@@ -29,6 +31,7 @@ Fear connects to [[anxiety]], [[worry]], and [[panic]], forming a spectrum of th
   - Avoidance patterns
 
 ## Related Emotions
+
 - Intensity scale: [[nervousness]] → [[anxiety]] → fear → [[panic]] → [[terror]]
 - Associated feelings: [[stress]], [[helplessness]], [[vulnerability]]
 - Potential outcomes: [[relief]] (when safe), [[trauma]] (if overwhelming)

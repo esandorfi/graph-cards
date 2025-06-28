@@ -5,6 +5,7 @@ Sadness is a natural emotional response to loss, disappointment, or unmet expect
 Sadness connects to [[grief]], [[melancholy]], and [[sorrow]], and can deepen into [[depression]] when prolonged. It often alternates with [[anger]] in the grieving process.
 
 ## Sadness Spectrum
+
 - Mild forms
   - [[disappointment]]
   - Wistfulness
@@ -19,6 +20,7 @@ Sadness connects to [[grief]], [[melancholy]], and [[sorrow]], and can deepen in
   - Profound [[sorrow]]
 
 ## Adaptive Functions
+
 - Processing experiences
   - Working through loss
   - Integrating difficult events
@@ -29,6 +31,7 @@ Sadness connects to [[grief]], [[melancholy]], and [[sorrow]], and can deepen in
   - Strengthening social bonds
 
 ## Physical Manifestations
+
 - Crying and tears
 - Fatigue and low energy
 - Withdrawal tendencies

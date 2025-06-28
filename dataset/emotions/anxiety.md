@@ -5,6 +5,7 @@ Anxiety is a feeling of unease, worry, or nervousness about future events or unc
 Anxiety connects closely to [[fear]], [[worry]], and [[stress]], but focuses on future rather than present threats. It can escalate to [[panic]] or develop into chronic patterns affecting daily life.
 
 ## Anxiety Manifestations
+
 - Cognitive symptoms
   - Racing thoughts
   - Catastrophic thinking
@@ -21,12 +22,14 @@ Anxiety connects closely to [[fear]], [[worry]], and [[stress]], but focuses on 
   - Seeking reassurance
 
 ## Types and Triggers
+
 - Generalized anxiety: persistent [[worry]] about multiple areas
 - Social anxiety: [[fear]] of judgment or embarrassment
 - Performance anxiety: concern about competence or success
 - Health anxiety: excessive worry about physical symptoms
 
 ## Relationship to Other Emotions
+
 - Often masks: [[anger]], [[sadness]], [[shame]]
 - Can trigger: [[depression]], [[frustration]], [[helplessness]]
 - Relief comes through: [[acceptance]], [[confidence]], [[peace]]

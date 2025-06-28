@@ -35,12 +35,7 @@
           "stress",
           "anxiety"
         ],
-        "backlinks": [
-          "anxiety",
-          "compassion",
-          "sadness",
-          "shame"
-        ]
+        "backlinks": ["anxiety", "compassion", "sadness", "shame"]
       }
     },
     {
@@ -75,12 +70,7 @@
           "courage",
           "trust"
         ],
-        "backlinks": [
-          "anger",
-          "fear",
-          "gratitude",
-          "shame"
-        ]
+        "backlinks": ["anger", "fear", "gratitude", "shame"]
       }
     },
     {
@@ -113,10 +103,7 @@
           "loneliness",
           "isolation"
         ],
-        "backlinks": [
-          "anger",
-          "love"
-        ]
+        "backlinks": ["anger", "love"]
       }
     },
     {
@@ -146,9 +133,7 @@
           "fear",
           "confusion"
         ],
-        "backlinks": [
-          "excitement"
-        ]
+        "backlinks": ["excitement"]
       }
     },
     {
@@ -178,10 +163,7 @@
           "satisfaction",
           "happiness"
         ],
-        "backlinks": [
-          "curiosity",
-          "joy"
-        ]
+        "backlinks": ["curiosity", "joy"]
       }
     },
     {
@@ -214,12 +196,7 @@
           "courage",
           "confidence"
         ],
-        "backlinks": [
-          "anger",
-          "anxiety",
-          "curiosity",
-          "hope"
-        ]
+        "backlinks": ["anger", "anxiety", "curiosity", "hope"]
       }
     },
     {
@@ -253,10 +230,7 @@
           "worry",
           "hope"
         ],
-        "backlinks": [
-          "joy",
-          "love"
-        ]
+        "backlinks": ["joy", "love"]
       }
     },
     {
@@ -293,10 +267,7 @@
           "disappointment",
           "fulfillment"
         ],
-        "backlinks": [
-          "gratitude",
-          "sadness"
-        ]
+        "backlinks": ["gratitude", "sadness"]
       }
     },
     {
@@ -330,12 +301,7 @@
           "ecstasy",
           "gratitude"
         ],
-        "backlinks": [
-          "excitement",
-          "gratitude",
-          "hope",
-          "love"
-        ]
+        "backlinks": ["excitement", "gratitude", "hope", "love"]
       }
     },
     {
@@ -372,10 +338,7 @@
           "loneliness",
           "courage"
         ],
-        "backlinks": [
-          "compassion",
-          "gratitude"
-        ]
+        "backlinks": ["compassion", "gratitude"]
       }
     },
     {
@@ -408,11 +371,7 @@
           "peace",
           "hope"
         ],
-        "backlinks": [
-          "anxiety",
-          "hope",
-          "joy"
-        ]
+        "backlinks": ["anxiety", "hope", "joy"]
       }
     },
     {
@@ -445,11 +404,7 @@
           "confidence",
           "anxiety"
         ],
-        "backlinks": [
-          "anger",
-          "anxiety",
-          "compassion"
-        ]
+        "backlinks": ["anger", "anxiety", "compassion"]
       }
     }
   ],

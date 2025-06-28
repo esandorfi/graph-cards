@@ -1,6 +1,6 @@
-export { MarkdownParser } from './parser';
-export { CardGraph } from './graph';
-export { GraphGenerator } from './generator';
+export { MarkdownParser } from "./parser";
+export { CardGraph } from "./graph";
+export { GraphGenerator } from "./generator";
 export {
   Card,
   GraphNode,
@@ -9,7 +9,7 @@ export {
   Graph,
   ParserOptions,
   GraphOptions,
-  GeneratorOptions
-} from './types';
+  GeneratorOptions,
+} from "./types";
 
-export { GraphGenerator as default } from './generator';
+export { GraphGenerator as default } from "./generator";

@@ -5,6 +5,7 @@ Isadora Duncan was an American dancer and choreographer who pioneered modern dan
 She influenced [[Martha Graham]], [[Doris Humphrey]], and the entire modern dance movement. Her free-flowing style and philosophical approach to movement broke from traditional ballet.
 
 ## Techniques
+
 - Natural movement principles
   - Breath-initiated motion
   - Gravity and momentum
@@ -19,6 +20,7 @@ She influenced [[Martha Graham]], [[Doris Humphrey]], and the entire modern danc
   - Spiritual connection
 
 ## Signature Elements
+
 - Improvisational solos
 - Classical music interpretation
   - Chopin waltzes

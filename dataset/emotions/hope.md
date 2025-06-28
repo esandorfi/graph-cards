@@ -5,6 +5,7 @@ Hope is a positive emotion characterized by the expectation that desired outcome
 Hope connects to [[optimism]], [[faith]], and often emerges from or leads to [[courage]] and [[determination]]. It can transform [[despair]] and provide resilience during [[sadness]] or [[fear]].
 
 ## Components of Hope
+
 - Goals and vision
   - Clear desired outcomes
   - Meaningful objectives
@@ -19,6 +20,7 @@ Hope connects to [[optimism]], [[faith]], and often emerges from or leads to [[c
   - Persistence through obstacles
 
 ## Types of Hope
+
 - Personal hope
   - Individual goals and dreams
   - Recovery from illness
@@ -33,6 +35,7 @@ Hope connects to [[optimism]], [[faith]], and often emerges from or leads to [[c
   - Life after death
 
 ## Relationship to Other Emotions
+
 - Counteracts: [[despair]], [[hopelessness]], [[depression]]
 - Enhances: [[joy]], [[enthusiasm]], [[peace]]
 - Supports: [[courage]], [[persistence]], [[resilience]]

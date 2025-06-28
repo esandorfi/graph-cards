@@ -5,6 +5,7 @@ Excitement is a high-energy positive emotion characterized by enthusiasm, antici
 Excitement connects to [[enthusiasm]], [[anticipation]], and can intensify into [[euphoria]] or settle into sustained [[joy]]. It often emerges from [[curiosity]] and can transform [[boredom]] into engaged energy.
 
 ## Characteristics
+
 - Physical manifestations
   - Increased heart rate and energy
   - Animated gestures and movement
@@ -19,6 +20,7 @@ Excitement connects to [[enthusiasm]], [[anticipation]], and can intensify into 
   - Preparation and planning
 
 ## Sources of Excitement
+
 - Anticipated events
   - Vacations and adventures
   - Social gatherings and celebrations
@@ -33,6 +35,7 @@ Excitement connects to [[enthusiasm]], [[anticipation]], and can intensify into 
   - Overcoming obstacles
 
 ## Related Emotions
+
 - Building excitement: [[anticipation]] → excitement → [[fulfillment]]
 - Shared excitement: creating [[joy]] and social bonding
 - Sustained excitement: developing into [[passion]] for activities

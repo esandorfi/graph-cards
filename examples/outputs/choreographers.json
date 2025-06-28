@@ -21,11 +21,7 @@
           "william-forsythe",
           "crystal-pite"
         ],
-        "backlinks": [
-          "crystal-pite",
-          "pina-bausch",
-          "william-forsythe"
-        ]
+        "backlinks": ["crystal-pite", "pina-bausch", "william-forsythe"]
       }
     },
     {
@@ -53,9 +49,7 @@
           "dwight-rhoden",
           "pearl-primus"
         ],
-        "backlinks": [
-          "isadora-duncan"
-        ]
+        "backlinks": ["isadora-duncan"]
       }
     },
     {
@@ -73,16 +67,8 @@
           "storytelling",
           "crossover"
         ],
-        "links": [
-          "george-balanchine",
-          "jerome-robbins",
-          "twyla-tharp"
-        ],
-        "backlinks": [
-          "george-balanchine",
-          "jerome-robbins",
-          "twyla-tharp"
-        ]
+        "links": ["george-balanchine", "jerome-robbins", "twyla-tharp"],
+        "backlinks": ["george-balanchine", "jerome-robbins", "twyla-tharp"]
       }
     },
     {
@@ -100,16 +86,8 @@
           "group-dynamics",
           "powerful"
         ],
-        "links": [
-          "william-forsythe",
-          "pina-bausch",
-          "akram-khan"
-        ],
-        "backlinks": [
-          "akram-khan",
-          "pina-bausch",
-          "william-forsythe"
-        ]
+        "links": ["william-forsythe", "pina-bausch", "akram-khan"],
+        "backlinks": ["akram-khan", "pina-bausch", "william-forsythe"]
       }
     },
     {
@@ -166,9 +144,7 @@
           "alvin-ailey",
           "merce-cunningham"
         ],
-        "backlinks": [
-          "martha-graham"
-        ]
+        "backlinks": ["martha-graham"]
       }
     },
     {
@@ -294,11 +270,7 @@
           "william-forsythe",
           "anne-teresa-de-keersmaeker"
         ],
-        "backlinks": [
-          "akram-khan",
-          "crystal-pite",
-          "william-forsythe"
-        ]
+        "backlinks": ["akram-khan", "crystal-pite", "william-forsythe"]
       }
     },
     {
@@ -325,11 +297,7 @@
           "susan-stroman",
           "christopher-wheeldon"
         ],
-        "backlinks": [
-          "christopher-wheeldon",
-          "jerome-robbins",
-          "martha-graham"
-        ]
+        "backlinks": ["christopher-wheeldon", "jerome-robbins", "martha-graham"]
       }
     },
     {

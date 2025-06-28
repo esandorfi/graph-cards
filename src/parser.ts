@@ -1,7 +1,7 @@
-import * as fs from 'fs';
-import * as path from 'path';
-import MarkdownIt from 'markdown-it';
-import { Card, ParserOptions } from './types';
+import * as fs from "fs";
+import * as path from "path";
+import MarkdownIt from "markdown-it";
+import { Card, ParserOptions } from "./types";
 
 export class MarkdownParser {
   private md: MarkdownIt;
@@ -13,12 +13,12 @@ export class MarkdownParser {
       linkPattern: options.linkPattern || /\[\[([^\]]+)\]\]/g,
       tagPattern: options.tagPattern || /#([a-zA-Z0-9_-]+)/g,
       cardIdPattern: options.cardIdPattern || /^#\s+(.+)$/m,
-      ...options
+      ...options,
     };
   }
 
   parseFile(filePath: string): Card {
-    const content = fs.readFileSync(filePath, 'utf-8');
+    const content = fs.readFileSync(filePath, "utf-8");
     return this.parseContent(content, filePath);
   }
 
@@ -35,7 +35,7 @@ export class MarkdownParser {
       filePath,
       tags,
       links,
-      backlinks: []
+      backlinks: [],
     };
   }
 
@@ -74,29 +74,29 @@ export class MarkdownParser {
     if (match) {
       return match[1].trim();
     }
-    
-    const lines = content.split('\n');
+
+    const lines = content.split("\n");
     for (const line of lines) {
       const trimmed = line.trim();
-      if (trimmed && !trimmed.startsWith('#')) {
+      if (trimmed && !trimmed.startsWith("#")) {
         return trimmed.substring(0, 100);
       }
     }
-    
-    return 'Untitled';
+
+    return "Untitled";
   }
 
   private extractLinks(content: string): string[] {
     const links: string[] = [];
     let match;
-    
+
     while ((match = this.options.linkPattern!.exec(content)) !== null) {
       const link = this.sanitizeId(match[1]);
       if (!links.includes(link)) {
         links.push(link);
       }
     }
-    
+
     this.options.linkPattern!.lastIndex = 0;
     return links;
   }
@@ -104,24 +104,28 @@ export class MarkdownParser {
   private extractTags(content: string): string[] {
     const tags: string[] = [];
     let match;
-    
+
     while ((match = this.options.tagPattern!.exec(content)) !== null) {
       const tag = match[1].toLowerCase();
       if (!tags.includes(tag)) {
         tags.push(tag);
       }
     }
-    
+
     this.options.tagPattern!.lastIndex = 0;
     return tags;
   }
 
   private sanitizeId(id: string): string {
-    return id.trim().toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+    return id
+      .trim()
+      .toLowerCase()
+      .replace(/\s+/g, "-")
+      .replace(/[^a-z0-9-]/g, "");
   }
 
   private isMarkdownFile(filename: string): boolean {
     const ext = path.extname(filename).toLowerCase();
-    return ['.md', '.markdown', '.mdown', '.mkd'].includes(ext);
+    return [".md", ".markdown", ".mdown", ".mkd"].includes(ext);
   }
 }
