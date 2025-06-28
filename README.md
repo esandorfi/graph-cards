@@ -146,7 +146,7 @@ enum EdgeType {
 }
 ```
 
-## Examples
+## samples
 
 ### Custom Link Patterns
 
@@ -173,16 +173,16 @@ const mermaidContent = generator.exportToMermaid(graph);
 fs.writeFileSync("graph.mmd", mermaidContent);
 ```
 
-## Examples
+## samples
 
-See the `examples/` directory for comprehensive demonstrations:
+See the `samples/` directory for comprehensive demonstrations:
 
 ```bash
 # Run simple demo
-cd examples && node simple-demo.js
+cd samples && node simple-demo.js
 
 # Run full sample program
-cd examples && node sample-usage.js
+cd samples && node sample-usage.js
 ```
 
 **Sample Output:**
@@ -206,7 +206,7 @@ cd examples && node sample-usage.js
    Tags: positive, happiness, well-being, energy
 ```
 
-The examples demonstrate:
+The samples demonstrate:
 
 - **Dataset Analysis** - Complete analytics for both sample datasets
 - **Individual Card Exploration** - Deep-dive into specific cards and relationships

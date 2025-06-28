@@ -1,5 +1,5 @@
 {
-  "name": "graph-cards-examples",
+  "name": "graph-cards-samples",
   "version": "1.0.0",
   "description": "Example usage of the graph-cards library",
   "main": "sample-usage.js",

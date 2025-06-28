@@ -1,4 +1,4 @@
-# Graph Cards Examples
+# Graph Cards samples
 
 This directory contains example programs demonstrating how to use the graph-cards library with the choreographers and emotions datasets.
 
@@ -10,7 +10,7 @@ cd ..
 npm run build
 
 # Run a dataset demo
-cd examples
+cd samples
 # Run both datasets sequentially
 npm run demo
 
@@ -109,7 +109,7 @@ dot -Tpng outputs/choreographers-graph.dot -o choreographers.png
 4. **Export Flexibility**: Multiple formats support different visualization tools
 5. **Graph Analytics**: Comprehensive metrics reveal network characteristics
 
-## Extending the Examples
+## Extending the samples
 
 You can modify `demo-output.js` to:
 
