@@ -168,6 +168,91 @@ const mermaidContent = generator.exportToMermaid(graph);
 fs.writeFileSync('graph.mmd', mermaidContent);
 ```
 
+## Development & Testing
+
+### Running Tests
+
+The library includes comprehensive tests using Vitest:
+
+```bash
+# Install dependencies
+npm install
+
+# Run all tests
+npm test
+
+# Run tests with UI
+npm run test:ui
+
+# Run tests once (CI mode)
+npm run test:run
+
+# Generate coverage report
+npm run test:coverage
+```
+
+### Test Structure
+
+```
+tests/
+├── unit/                    # Unit tests for individual classes
+│   ├── parser.test.ts      # MarkdownParser functionality
+│   ├── graph.test.ts       # CardGraph building and analysis
+│   └── generator.test.ts   # GraphGenerator and exports
+├── integration/            # Integration tests with real datasets
+│   ├── choreographers.test.ts  # Famous dance choreographers
+│   ├── emotions.test.ts        # Emotional vocabulary
+│   └── cross-dataset.test.ts   # Combined dataset scenarios
+├── fixtures/               # Test data and sample files
+└── utils/                  # Testing utilities and helpers
+```
+
+### Sample Datasets
+
+The library includes two comprehensive sample datasets for testing and demonstration:
+
+#### 1. **Choreographers Dataset** (`samples/choreographers/`)
+12 interconnected cards about famous dance choreographers including:
+- Martha Graham, George Balanchine, Merce Cunningham
+- Pina Bausch, Jerome Robbins, Alvin Ailey
+- Modern, ballet, and contemporary dance relationships
+- Techniques, signature works, and artistic influences
+
+#### 2. **Emotions Dataset** (`samples/emotions/`)
+12 cards mapping emotional relationships and transitions:
+- Core emotions: joy, anger, fear, sadness, love
+- Complex emotions: anxiety, shame, compassion, hope
+- Emotional intensity scales and transformation paths
+- Psychological and physiological characteristics
+
+### Example Test Scenarios
+
+```typescript
+// Test choreographer relationships
+expect(graph).toHaveEdge('martha-graham', 'merce-cunningham');
+expect(graph).toHaveEdge('george-balanchine', 'jerome-robbins');
+
+// Test emotional connections  
+expect(graph).toHaveEdge('joy', 'happiness');
+expect(graph).toHaveEdge('fear', 'anxiety');
+
+// Test cross-dataset isolation
+expect(graph.getShortestPath('martha-graham', 'joy')).toEqual([]);
+```
+
+### Building and TypeScript
+
+```bash
+# Build the library
+npm run build
+
+# Type checking
+npm run typecheck
+
+# Linting
+npm run lint
+```
+
 ## License
 
 MIT
