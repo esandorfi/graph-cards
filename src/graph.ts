@@ -1,4 +1,11 @@
-import { Card, Graph, GraphNode, GraphEdge, EdgeType, GraphOptions } from './types';
+import {
+  Card,
+  Graph,
+  GraphNode,
+  GraphEdge,
+  EdgeType,
+  GraphOptions,
+} from "./types";
 
 export class CardGraph {
   private graph: Graph;
@@ -7,13 +14,13 @@ export class CardGraph {
   constructor(options: GraphOptions = {}) {
     this.graph = {
       nodes: new Map(),
-      edges: []
+      edges: [],
     };
     this.options = {
       includeBacklinks: options.includeBacklinks ?? true,
       includeTags: options.includeTags ?? true,
       weightByFrequency: options.weightByFrequency ?? false,
-      ...options
+      ...options,
     };
   }
 
@@ -23,7 +30,7 @@ export class CardGraph {
 
     this.addCards(cards);
     this.buildConnections(cards);
-    
+
     if (this.options.includeBacklinks) {
       this.addBacklinks();
     }
@@ -48,13 +55,15 @@ export class CardGraph {
     if (!node) return [];
 
     return node.connections
-      .map(edge => this.graph.nodes.get(edge.to))
+      .map((edge) => this.graph.nodes.get(edge.to))
       .filter((node): node is GraphNode => node !== undefined);
   }
 
   getShortestPath(fromId: string, toId: string): string[] {
     const visited = new Set<string>();
-    const queue: { id: string; path: string[] }[] = [{ id: fromId, path: [fromId] }];
+    const queue: { id: string; path: string[] }[] = [
+      { id: fromId, path: [fromId] },
+    ];
 
     while (queue.length > 0) {
       const { id, path } = queue.shift()!;
@@ -103,7 +112,7 @@ export class CardGraph {
       const node: GraphNode = {
         id: card.id,
         card,
-        connections: []
+        connections: [],
       };
       this.graph.nodes.set(card.id, node);
     }
@@ -121,7 +130,7 @@ export class CardGraph {
             from: card.id,
             to: linkId,
             type: EdgeType.LINK,
-            weight: this.options.weightByFrequency ? 1 : undefined
+            weight: this.options.weightByFrequency ? 1 : undefined,
           };
 
           fromNode.connections.push(edge);
@@ -153,7 +162,7 @@ export class CardGraph {
             from: nodeId,
             to: backlinkId,
             type: EdgeType.BACKLINK,
-            weight: this.options.weightByFrequency ? 1 : undefined
+            weight: this.options.weightByFrequency ? 1 : undefined,
           };
 
           node.connections.push(backlinkEdge);
@@ -175,7 +184,7 @@ export class CardGraph {
       }
     }
 
-    for (const [tag, cardIds] of tagMap) {
+    for (const [, cardIds] of tagMap) {
       if (cardIds.length > 1) {
         for (let i = 0; i < cardIds.length; i++) {
           for (let j = i + 1; j < cardIds.length; j++) {
@@ -187,14 +196,14 @@ export class CardGraph {
                 from: cardIds[i],
                 to: cardIds[j],
                 type: EdgeType.TAG,
-                weight: this.options.weightByFrequency ? 1 : undefined
+                weight: this.options.weightByFrequency ? 1 : undefined,
               };
 
               const edge2: GraphEdge = {
                 from: cardIds[j],
                 to: cardIds[i],
                 type: EdgeType.TAG,
-                weight: this.options.weightByFrequency ? 1 : undefined
+                weight: this.options.weightByFrequency ? 1 : undefined,
               };
 
               fromNode.connections.push(edge1);
