@@ -5,6 +5,7 @@
  * Shows basic usage with both datasets
  */
 
+const path = require('path');
 const { GraphGenerator } = require('../dist/index.js');
 
 console.log('🎭 Graph Cards - Simple Demo\n');
@@ -14,7 +15,8 @@ const generator = new GraphGenerator();
 
 // Analyze choreographers
 console.log('🩰 Choreographers Dataset:');
-const choreoGraph = generator.generateFromDirectory('../samples/choreographers');
+const choreoDir = path.resolve(__dirname, '../samples/choreographers');
+const choreoGraph = generator.generateFromDirectory(choreoDir);
 const choreoAnalytics = generator.getAnalytics(choreoGraph);
 
 console.log(`   Cards: ${choreoAnalytics.nodeCount}`);
@@ -23,7 +25,8 @@ console.log(`   Density: ${(choreoAnalytics.density * 100).toFixed(1)}%\n`);
 
 // Analyze emotions  
 console.log('😊 Emotions Dataset:');
-const emotionGraph = generator.generateFromDirectory('../samples/emotions');
+const emotionDir = path.resolve(__dirname, '../samples/emotions');
+const emotionGraph = generator.generateFromDirectory(emotionDir);
 const emotionAnalytics = generator.getAnalytics(emotionGraph);
 
 console.log(`   Cards: ${emotionAnalytics.nodeCount}`);

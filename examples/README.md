@@ -9,14 +9,14 @@ This directory contains example programs demonstrating how to use the graph-card
 cd ..
 npm run build
 
-# Run the sample program
+# Run the demo
 cd examples
-node sample-usage.js
+npm run demo
 ```
 
 ## What the Sample Program Does
 
-The `sample-usage.js` program demonstrates:
+The `demo-output.js` program demonstrates:
 
 ### 📊 **Dataset Analysis**
 - Parses both choreographers and emotions markdown datasets
@@ -102,7 +102,7 @@ dot -Tpng outputs/choreographers-graph.dot -o choreographers.png
 
 ## Extending the Examples
 
-You can modify `sample-usage.js` to:
+You can modify `demo-output.js` to:
 - Add your own markdown datasets
 - Customize parsing patterns (links, tags)
 - Implement custom graph analysis algorithms

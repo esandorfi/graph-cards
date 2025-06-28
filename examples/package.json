@@ -4,8 +4,9 @@
   "description": "Example usage of the graph-cards library",
   "main": "sample-usage.js",
   "scripts": {
-    "demo": "node sample-usage.js",
-    "demo2": "node sample-demo.js"
+
+    "demo.simple": "node demo-simple.js",
+    "demo": "node demo-output.js"
 
   },
   "dependencies": {
