@@ -250,14 +250,14 @@ tests/
 
 The library includes two comprehensive sample datasets for testing and demonstration:
 
-#### 1. **Choreographers Dataset** (`samples/choreographers/`)
+#### 1. **Choreographers Dataset** (`dataset/choreographers/`)
 12 interconnected cards about famous dance choreographers including:
 - Martha Graham, George Balanchine, Merce Cunningham
 - Pina Bausch, Jerome Robbins, Alvin Ailey
 - Modern, ballet, and contemporary dance relationships
 - Techniques, signature works, and artistic influences
 
-#### 2. **Emotions Dataset** (`samples/emotions/`)
+#### 2. **Emotions Dataset** (`dataset/emotions/`)
 12 cards mapping emotional relationships and transitions:
 - Core emotions: joy, anger, fear, sadness, love
 - Complex emotions: anxiety, shame, compassion, hope

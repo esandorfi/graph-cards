@@ -5,7 +5,7 @@
       "card": {
         "id": "anger",
         "title": "Anger",
-        "filePath": "/home/esandorfi/graph-cards/samples/emotions/anger.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/emotions/anger.md",
         "tags": [
           "negative",
           "protective",
@@ -48,7 +48,7 @@
       "card": {
         "id": "anxiety",
         "title": "Anxiety",
-        "filePath": "/home/esandorfi/graph-cards/samples/emotions/anxiety.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/emotions/anxiety.md",
         "tags": [
           "worry",
           "future",
@@ -88,7 +88,7 @@
       "card": {
         "id": "compassion",
         "title": "Compassion",
-        "filePath": "/home/esandorfi/graph-cards/samples/emotions/compassion.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/emotions/compassion.md",
         "tags": [
           "empathy",
           "kindness",
@@ -124,7 +124,7 @@
       "card": {
         "id": "curiosity",
         "title": "Curiosity",
-        "filePath": "/home/esandorfi/graph-cards/samples/emotions/curiosity.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/emotions/curiosity.md",
         "tags": [
           "learning",
           "exploration",
@@ -156,7 +156,7 @@
       "card": {
         "id": "excitement",
         "title": "Excitement",
-        "filePath": "/home/esandorfi/graph-cards/samples/emotions/excitement.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/emotions/excitement.md",
         "tags": [
           "energy",
           "enthusiasm",
@@ -189,7 +189,7 @@
       "card": {
         "id": "fear",
         "title": "Fear",
-        "filePath": "/home/esandorfi/graph-cards/samples/emotions/fear.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/emotions/fear.md",
         "tags": [
           "survival",
           "protection",
@@ -227,7 +227,7 @@
       "card": {
         "id": "gratitude",
         "title": "Gratitude",
-        "filePath": "/home/esandorfi/graph-cards/samples/emotions/gratitude.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/emotions/gratitude.md",
         "tags": [
           "appreciation",
           "recognition",
@@ -264,7 +264,7 @@
       "card": {
         "id": "hope",
         "title": "Hope",
-        "filePath": "/home/esandorfi/graph-cards/samples/emotions/hope.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/emotions/hope.md",
         "tags": [
           "optimism",
           "future",
@@ -304,7 +304,7 @@
       "card": {
         "id": "joy",
         "title": "Joy",
-        "filePath": "/home/esandorfi/graph-cards/samples/emotions/joy.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/emotions/joy.md",
         "tags": [
           "positive",
           "happiness",
@@ -343,7 +343,7 @@
       "card": {
         "id": "love",
         "title": "Love",
-        "filePath": "/home/esandorfi/graph-cards/samples/emotions/love.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/emotions/love.md",
         "tags": [
           "connection",
           "affection",
@@ -383,7 +383,7 @@
       "card": {
         "id": "sadness",
         "title": "Sadness",
-        "filePath": "/home/esandorfi/graph-cards/samples/emotions/sadness.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/emotions/sadness.md",
         "tags": [
           "loss",
           "grief",
@@ -420,7 +420,7 @@
       "card": {
         "id": "shame",
         "title": "Shame",
-        "filePath": "/home/esandorfi/graph-cards/samples/emotions/shame.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/emotions/shame.md",
         "tags": [
           "self-worth",
           "inadequacy",

@@ -11,11 +11,12 @@ npm run build
 
 # Run a dataset demo
 cd examples
-# For choreographers dataset
-npm run demo.dance
+# Run both datasets sequentially
+npm run demo
 
-# For emotions dataset
-npm run demo.emotions
+# Or run individually
+npm run demo.dance   # Choreographers
+npm run demo.emotions # Emotions
 ```
 
 ## What the Sample Program Does

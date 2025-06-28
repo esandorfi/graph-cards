@@ -8,7 +8,7 @@ const { GraphGenerator } = require('../dist/index.js');
 
 // One-liner usage
 const generator = new GraphGenerator();
-const graph = generator.generateFromDirectory('../samples/emotions');
+const graph = generator.generateFromDirectory('../dataset/emotions');
 
 console.log('📊 Emotions Graph:');
 console.log(`   ${graph.nodes.size} cards, ${graph.edges.length} connections`);

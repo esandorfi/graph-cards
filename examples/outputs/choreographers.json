@@ -5,7 +5,7 @@
       "card": {
         "id": "akram-khan",
         "title": "Akram Khan",
-        "filePath": "/home/esandorfi/graph-cards/samples/choreographers/akram-khan.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/choreographers/akram-khan.md",
         "tags": [
           "contemporary",
           "kathak",
@@ -33,7 +33,7 @@
       "card": {
         "id": "alvin-ailey",
         "title": "Alvin Ailey",
-        "filePath": "/home/esandorfi/graph-cards/samples/choreographers/alvin-ailey.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/choreographers/alvin-ailey.md",
         "tags": [
           "african-american",
           "spiritual",
@@ -63,7 +63,7 @@
       "card": {
         "id": "christopher-wheeldon",
         "title": "Christopher Wheeldon",
-        "filePath": "/home/esandorfi/graph-cards/samples/choreographers/christopher-wheeldon.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/choreographers/christopher-wheeldon.md",
         "tags": [
           "neoclassical",
           "lyrical",
@@ -90,7 +90,7 @@
       "card": {
         "id": "crystal-pite",
         "title": "Crystal Pite",
-        "filePath": "/home/esandorfi/graph-cards/samples/choreographers/crystal-pite.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/choreographers/crystal-pite.md",
         "tags": [
           "contemporary",
           "theatrical",
@@ -117,7 +117,7 @@
       "card": {
         "id": "george-balanchine",
         "title": "George Balanchine",
-        "filePath": "/home/esandorfi/graph-cards/samples/choreographers/george-balanchine.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/choreographers/george-balanchine.md",
         "tags": [
           "neoclassical",
           "ballet",
@@ -150,7 +150,7 @@
       "card": {
         "id": "isadora-duncan",
         "title": "Isadora Duncan",
-        "filePath": "/home/esandorfi/graph-cards/samples/choreographers/isadora-duncan.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/choreographers/isadora-duncan.md",
         "tags": [
           "pioneer",
           "modern-dance",
@@ -176,7 +176,7 @@
       "card": {
         "id": "jerome-robbins",
         "title": "Jerome Robbins",
-        "filePath": "/home/esandorfi/graph-cards/samples/choreographers/jerome-robbins.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/choreographers/jerome-robbins.md",
         "tags": [
           "american",
           "broadway",
@@ -209,7 +209,7 @@
       "card": {
         "id": "martha-graham",
         "title": "Martha Graham",
-        "filePath": "/home/esandorfi/graph-cards/samples/choreographers/martha-graham.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/choreographers/martha-graham.md",
         "tags": [
           "modern-dance",
           "pioneer",
@@ -242,7 +242,7 @@
       "card": {
         "id": "merce-cunningham",
         "title": "Merce Cunningham",
-        "filePath": "/home/esandorfi/graph-cards/samples/choreographers/merce-cunningham.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/choreographers/merce-cunningham.md",
         "tags": [
           "postmodern",
           "chance-operations",
@@ -274,7 +274,7 @@
       "card": {
         "id": "pina-bausch",
         "title": "Pina Bausch",
-        "filePath": "/home/esandorfi/graph-cards/samples/choreographers/pina-bausch.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/choreographers/pina-bausch.md",
         "tags": [
           "tanztheater",
           "german",
@@ -306,7 +306,7 @@
       "card": {
         "id": "twyla-tharp",
         "title": "Twyla Tharp",
-        "filePath": "/home/esandorfi/graph-cards/samples/choreographers/twyla-tharp.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/choreographers/twyla-tharp.md",
         "tags": [
           "crossover",
           "fusion",
@@ -337,7 +337,7 @@
       "card": {
         "id": "william-forsythe",
         "title": "William Forsythe",
-        "filePath": "/home/esandorfi/graph-cards/samples/choreographers/william-forsythe.md",
+        "filePath": "/home/esandorfi/graph-cards/dataset/choreographers/william-forsythe.md",
         "tags": [
           "neoclassical",
           "experimental",

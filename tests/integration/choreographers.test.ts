@@ -7,14 +7,14 @@ describe('Choreographers Dataset Integration', () => {
   const generator = new GraphGenerator();
 
   it('should parse all 12 choreographer files', () => {
-    const graph = generator.generateFromDirectory('./samples/choreographers');
+    const graph = generator.generateFromDirectory('./dataset/choreographers');
     
     expect(graph.nodes.size).toBe(12);
     expect(graph.edges.length).toBeGreaterThan(0);
   });
 
   it('should create expected choreographer nodes', () => {
-    const graph = generator.generateFromDirectory('./samples/choreographers');
+    const graph = generator.generateFromDirectory('./dataset/choreographers');
     
     // Test key choreographers exist
     expectNodeExists(graph, 'martha-graham');
@@ -32,7 +32,7 @@ describe('Choreographers Dataset Integration', () => {
   });
 
   it('should establish known choreographer relationships', () => {
-    const graph = generator.generateFromDirectory('./samples/choreographers');
+    const graph = generator.generateFromDirectory('./dataset/choreographers');
     
     // Martha Graham influenced Merce Cunningham
     expectEdgeExists(graph, 'martha-graham', 'merce-cunningham', EdgeType.LINK);
@@ -52,7 +52,7 @@ describe('Choreographers Dataset Integration', () => {
       graph: { includeTags: true }
     });
     
-    const graph = generator.generateFromDirectory('./samples/choreographers');
+    const graph = generator.generateFromDirectory('./dataset/choreographers');
     
     // Should have tag edges connecting similar styles
     const tagEdges = graph.edges.filter(e => e.type === EdgeType.TAG);
@@ -67,7 +67,7 @@ describe('Choreographers Dataset Integration', () => {
   });
 
   it('should find paths between related choreographers', () => {
-    const graph = generator.generateFromDirectory('./samples/choreographers');
+    const graph = generator.generateFromDirectory('./dataset/choreographers');
     generator.graph.buildGraph(Array.from(graph.nodes.values()).map(n => n.card));
     
     // Path from Martha Graham to William Forsythe (through modern dance lineage)
@@ -78,7 +78,7 @@ describe('Choreographers Dataset Integration', () => {
   });
 
   it('should identify choreographer communities', () => {
-    const graph = generator.generateFromDirectory('./samples/choreographers');
+    const graph = generator.generateFromDirectory('./dataset/choreographers');
     generator.graph.buildGraph(Array.from(graph.nodes.values()).map(n => n.card));
     
     const components = generator.graph.getStronglyConnectedComponents();
@@ -92,7 +92,7 @@ describe('Choreographers Dataset Integration', () => {
   });
 
   it('should have meaningful analytics for choreographer network', () => {
-    const graph = generator.generateFromDirectory('./samples/choreographers');
+    const graph = generator.generateFromDirectory('./dataset/choreographers');
     const analytics = generator.getAnalytics(graph);
     
     expect(analytics.nodeCount).toBe(12);
@@ -103,7 +103,7 @@ describe('Choreographers Dataset Integration', () => {
   });
 
   it('should export choreographer graph to all formats', () => {
-    const graph = generator.generateFromDirectory('./samples/choreographers');
+    const graph = generator.generateFromDirectory('./dataset/choreographers');
     
     const json = generator.exportToJSON(graph);
     expect(() => JSON.parse(json)).not.toThrow();
@@ -118,7 +118,7 @@ describe('Choreographers Dataset Integration', () => {
   });
 
   it('should handle choreographer names with special characters', () => {
-    const graph = generator.generateFromDirectory('./samples/choreographers');
+    const graph = generator.generateFromDirectory('./dataset/choreographers');
     
     // Pina Bausch has a space and special characters in related content
     expectNodeExists(graph, 'pina-bausch');

@@ -7,8 +7,8 @@ describe('Cross-Dataset Integration', () => {
 
   it('should combine both datasets into single graph', () => {
     // Parse both directories
-    const choreographersCards = generator.parser.parseDirectory('./samples/choreographers');
-    const emotionsCards = generator.parser.parseDirectory('./samples/emotions');
+    const choreographersCards = generator.parser.parseDirectory('./dataset/choreographers');
+    const emotionsCards = generator.parser.parseDirectory('./dataset/emotions');
     
     // Combine and build graph
     const allCards = [...choreographersCards, ...emotionsCards];
@@ -19,8 +19,8 @@ describe('Cross-Dataset Integration', () => {
   });
 
   it('should maintain dataset integrity when combined', () => {
-    const choreographersCards = generator.parser.parseDirectory('./samples/choreographers');
-    const emotionsCards = generator.parser.parseDirectory('./samples/emotions');
+    const choreographersCards = generator.parser.parseDirectory('./dataset/choreographers');
+    const emotionsCards = generator.parser.parseDirectory('./dataset/emotions');
     const allCards = [...choreographersCards, ...emotionsCards];
     
     const combinedGraph = generator.generateFromCards(allCards);
@@ -39,8 +39,8 @@ describe('Cross-Dataset Integration', () => {
   });
 
   it('should not create cross-dataset links unless explicitly referenced', () => {
-    const choreographersCards = generator.parser.parseDirectory('./samples/choreographers');
-    const emotionsCards = generator.parser.parseDirectory('./samples/emotions');
+    const choreographersCards = generator.parser.parseDirectory('./dataset/choreographers');
+    const emotionsCards = generator.parser.parseDirectory('./dataset/emotions');
     const allCards = [...choreographersCards, ...emotionsCards];
     
     const combinedGraph = generator.generateFromCards(allCards);
@@ -59,8 +59,8 @@ describe('Cross-Dataset Integration', () => {
   });
 
   it('should provide accurate analytics for combined dataset', () => {
-    const choreographersCards = generator.parser.parseDirectory('./samples/choreographers');
-    const emotionsCards = generator.parser.parseDirectory('./samples/emotions');
+    const choreographersCards = generator.parser.parseDirectory('./dataset/choreographers');
+    const emotionsCards = generator.parser.parseDirectory('./dataset/emotions');
     const allCards = [...choreographersCards, ...emotionsCards];
     
     const combinedGraph = generator.generateFromCards(allCards);
@@ -81,8 +81,8 @@ describe('Cross-Dataset Integration', () => {
       graph: { includeTags: true }
     });
     
-    const choreographersCards = generator.parser.parseDirectory('./samples/choreographers');
-    const emotionsCards = generator.parser.parseDirectory('./samples/emotions');
+    const choreographersCards = generator.parser.parseDirectory('./dataset/choreographers');
+    const emotionsCards = generator.parser.parseDirectory('./dataset/emotions');
     
     // Look for common tags (if any)
     const choreographerTags = new Set(choreographersCards.flatMap(c => c.tags));
@@ -100,8 +100,8 @@ describe('Cross-Dataset Integration', () => {
   });
 
   it('should export combined dataset correctly', () => {
-    const choreographersCards = generator.parser.parseDirectory('./samples/choreographers');
-    const emotionsCards = generator.parser.parseDirectory('./samples/emotions');
+    const choreographersCards = generator.parser.parseDirectory('./dataset/choreographers');
+    const emotionsCards = generator.parser.parseDirectory('./dataset/emotions');
     const allCards = [...choreographersCards, ...emotionsCards];
     
     const combinedGraph = generator.generateFromCards(allCards);
@@ -123,8 +123,8 @@ describe('Cross-Dataset Integration', () => {
   });
 
   it('should find paths within datasets but not across unless connected', () => {
-    const choreographersCards = generator.parser.parseDirectory('./samples/choreographers');
-    const emotionsCards = generator.parser.parseDirectory('./samples/emotions');
+    const choreographersCards = generator.parser.parseDirectory('./dataset/choreographers');
+    const emotionsCards = generator.parser.parseDirectory('./dataset/emotions');
     const allCards = [...choreographersCards, ...emotionsCards];
     
     const combinedGraph = generator.generateFromCards(allCards);
@@ -145,8 +145,8 @@ describe('Cross-Dataset Integration', () => {
 
   it('should handle different file counts gracefully', () => {
     // Test with just a few files from each dataset
-    const limitedChoreographers = generator.parser.parseDirectory('./samples/choreographers').slice(0, 3);
-    const limitedEmotions = generator.parser.parseDirectory('./samples/emotions').slice(0, 5);
+    const limitedChoreographers = generator.parser.parseDirectory('./dataset/choreographers').slice(0, 3);
+    const limitedEmotions = generator.parser.parseDirectory('./dataset/emotions').slice(0, 5);
     
     const limitedGraph = generator.generateFromCards([...limitedChoreographers, ...limitedEmotions]);
     
@@ -157,8 +157,8 @@ describe('Cross-Dataset Integration', () => {
   it('should maintain performance with combined datasets', () => {
     const start = Date.now();
     
-    const choreographersCards = generator.parser.parseDirectory('./samples/choreographers');
-    const emotionsCards = generator.parser.parseDirectory('./samples/emotions');
+    const choreographersCards = generator.parser.parseDirectory('./dataset/choreographers');
+    const emotionsCards = generator.parser.parseDirectory('./dataset/emotions');
     const allCards = [...choreographersCards, ...emotionsCards];
     
     const combinedGraph = generator.generateFromCards(allCards);

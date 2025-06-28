@@ -6,7 +6,7 @@
  * Usage:
  *   node demo-dataset.js <dataset>
  *
- * <dataset> should be the folder name inside ../samples (e.g. "choreographers" or "emotions").
+ * <dataset> should be the folder name inside ../dataset (e.g. "choreographers" or "emotions").
  *
  * The script prints basic analytics and exports the graph in JSON, DOT and Mermaid formats.
  */
@@ -18,7 +18,7 @@ const { GraphGenerator } = require('../dist/index.js');
 // ---------- helpers ---------------------------------------------------------
 
 function resolveDatasetDir(dataset) {
-  return path.resolve(__dirname, `../samples/${dataset}`);
+  return path.resolve(__dirname, `../dataset/${dataset}`);
 }
 
 function exportGraph(graph, name, generator) {

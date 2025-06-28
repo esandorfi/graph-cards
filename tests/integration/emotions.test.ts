@@ -7,14 +7,14 @@ describe('Emotions Dataset Integration', () => {
   const generator = new GraphGenerator();
 
   it('should parse all 12 emotion files', () => {
-    const graph = generator.generateFromDirectory('./samples/emotions');
+    const graph = generator.generateFromDirectory('./dataset/emotions');
     
     expect(graph.nodes.size).toBe(12);
     expect(graph.edges.length).toBeGreaterThan(0);
   });
 
   it('should create expected emotion nodes', () => {
-    const graph = generator.generateFromDirectory('./samples/emotions');
+    const graph = generator.generateFromDirectory('./dataset/emotions');
     
     // Test core emotions exist
     expectNodeExists(graph, 'joy');
@@ -32,7 +32,7 @@ describe('Emotions Dataset Integration', () => {
   });
 
   it('should establish known emotional relationships', () => {
-    const graph = generator.generateFromDirectory('./samples/emotions');
+    const graph = generator.generateFromDirectory('./dataset/emotions');
     
     // Joy connects to excitement (which exists as a file)
     expectEdgeExists(graph, 'joy', 'excitement', EdgeType.LINK);
@@ -55,7 +55,7 @@ describe('Emotions Dataset Integration', () => {
       graph: { includeTags: true }
     });
     
-    const graph = generator.generateFromDirectory('./samples/emotions');
+    const graph = generator.generateFromDirectory('./dataset/emotions');
     
     // Should have tag edges connecting similar emotional categories
     const tagEdges = graph.edges.filter(e => e.type === EdgeType.TAG);
@@ -70,7 +70,7 @@ describe('Emotions Dataset Integration', () => {
   });
 
   it('should find emotional transition paths', () => {
-    const graph = generator.generateFromDirectory('./samples/emotions');
+    const graph = generator.generateFromDirectory('./dataset/emotions');
     generator.graph.buildGraph(Array.from(graph.nodes.values()).map(n => n.card));
     
     // Path from sadness to hope (emotional healing journey)
@@ -85,7 +85,7 @@ describe('Emotions Dataset Integration', () => {
   });
 
   it('should identify emotional clusters', () => {
-    const graph = generator.generateFromDirectory('./samples/emotions');
+    const graph = generator.generateFromDirectory('./dataset/emotions');
     generator.graph.buildGraph(Array.from(graph.nodes.values()).map(n => n.card));
     
     const components = generator.graph.getStronglyConnectedComponents();
@@ -99,7 +99,7 @@ describe('Emotions Dataset Integration', () => {
   });
 
   it('should handle emotional opposites and contrasts', () => {
-    const graph = generator.generateFromDirectory('./samples/emotions');
+    const graph = generator.generateFromDirectory('./dataset/emotions');
     
     // Joy should reference its opposite sadness
     const joyNode = graph.nodes.get('joy');
@@ -115,7 +115,7 @@ describe('Emotions Dataset Integration', () => {
   });
 
   it('should have rich emotional network analytics', () => {
-    const graph = generator.generateFromDirectory('./samples/emotions');
+    const graph = generator.generateFromDirectory('./dataset/emotions');
     const analytics = generator.getAnalytics(graph);
     
     expect(analytics.nodeCount).toBe(12);
@@ -126,7 +126,7 @@ describe('Emotions Dataset Integration', () => {
   });
 
   it('should export emotions graph to all formats', () => {
-    const graph = generator.generateFromDirectory('./samples/emotions');
+    const graph = generator.generateFromDirectory('./dataset/emotions');
     
     const json = generator.exportToJSON(graph);
     const parsed = JSON.parse(json);
@@ -144,7 +144,7 @@ describe('Emotions Dataset Integration', () => {
   });
 
   it('should capture emotional intensity relationships', () => {
-    const graph = generator.generateFromDirectory('./samples/emotions');
+    const graph = generator.generateFromDirectory('./dataset/emotions');
     
     // Excitement should connect to joy (intensity relationship)
     expectEdgeExists(graph, 'excitement', 'joy', EdgeType.LINK);
@@ -159,7 +159,7 @@ describe('Emotions Dataset Integration', () => {
   });
 
   it('should handle complex emotional relationships', () => {
-    const graph = generator.generateFromDirectory('./samples/emotions');
+    const graph = generator.generateFromDirectory('./dataset/emotions');
     
     // Shame should have multiple complex relationships
     const shameNode = graph.nodes.get('shame');
