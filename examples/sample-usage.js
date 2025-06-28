@@ -167,7 +167,7 @@ async function exportSamples(graph, name) {
   console.log(`\n💾 Exporting ${name} graph to multiple formats...`);
   
   try {
-    const outputDir = `./examples/outputs`;
+    const outputDir = `./outputs`;
     if (!fs.existsSync(outputDir)) {
       fs.mkdirSync(outputDir, { recursive: true });
     }

@@ -5,7 +5,8 @@
   "main": "sample-usage.js",
   "scripts": {
     "demo": "node sample-usage.js",
-    "choreo": "node -e \"require('./sample-usage.js').main().then(() => console.log('Demo completed!'))\""
+    "demo2": "node sample-demo.js"
+
   },
   "dependencies": {
     "graph-cards": "file:.."
