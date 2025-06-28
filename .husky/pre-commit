@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname "$0")/_/husky.sh"
 
-# Run lint-staged (eslint --fix & prettier) on staged files
+# Lint and format staged files
 npx --no-install lint-staged
