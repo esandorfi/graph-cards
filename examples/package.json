@@ -1,0 +1,13 @@
+{
+  "name": "graph-cards-examples",
+  "version": "1.0.0",
+  "description": "Example usage of the graph-cards library",
+  "main": "sample-usage.js",
+  "scripts": {
+    "demo": "node sample-usage.js",
+    "choreo": "node -e \"require('./sample-usage.js').main().then(() => console.log('Demo completed!'))\""
+  },
+  "dependencies": {
+    "graph-cards": "file:.."
+  }
+}

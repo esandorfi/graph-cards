@@ -1,0 +1,2069 @@
+{
+  "nodes": [
+    {
+      "id": "akram-khan",
+      "card": {
+        "id": "akram-khan",
+        "title": "Akram Khan",
+        "filePath": "../samples/choreographers/akram-khan.md",
+        "tags": [
+          "contemporary",
+          "kathak",
+          "fusion",
+          "multicultural",
+          "storytelling",
+          "political",
+          "autobiographical"
+        ],
+        "links": [
+          "martha-graham",
+          "pina-bausch",
+          "william-forsythe",
+          "crystal-pite"
+        ],
+        "backlinks": [
+          "crystal-pite",
+          "pina-bausch",
+          "william-forsythe"
+        ]
+      }
+    },
+    {
+      "id": "alvin-ailey",
+      "card": {
+        "id": "alvin-ailey",
+        "title": "Alvin Ailey",
+        "filePath": "../samples/choreographers/alvin-ailey.md",
+        "tags": [
+          "african-american",
+          "spiritual",
+          "cultural",
+          "emotional",
+          "modern-dance",
+          "celebration",
+          "heritage"
+        ],
+        "links": [
+          "martha-graham",
+          "doris-humphrey",
+          "charles-weidman",
+          "katherine-dunham",
+          "duke-ellington",
+          "judith-jamison",
+          "dwight-rhoden",
+          "pearl-primus"
+        ],
+        "backlinks": [
+          "isadora-duncan"
+        ]
+      }
+    },
+    {
+      "id": "christopher-wheeldon",
+      "card": {
+        "id": "christopher-wheeldon",
+        "title": "Christopher Wheeldon",
+        "filePath": "../samples/choreographers/christopher-wheeldon.md",
+        "tags": [
+          "neoclassical",
+          "lyrical",
+          "theatrical",
+          "broadway",
+          "british",
+          "storytelling",
+          "crossover"
+        ],
+        "links": [
+          "george-balanchine",
+          "jerome-robbins",
+          "twyla-tharp"
+        ],
+        "backlinks": [
+          "george-balanchine",
+          "jerome-robbins",
+          "twyla-tharp"
+        ]
+      }
+    },
+    {
+      "id": "crystal-pite",
+      "card": {
+        "id": "crystal-pite",
+        "title": "Crystal Pite",
+        "filePath": "../samples/choreographers/crystal-pite.md",
+        "tags": [
+          "contemporary",
+          "theatrical",
+          "emotional",
+          "canadian",
+          "storytelling",
+          "group-dynamics",
+          "powerful"
+        ],
+        "links": [
+          "william-forsythe",
+          "pina-bausch",
+          "akram-khan"
+        ],
+        "backlinks": [
+          "akram-khan",
+          "pina-bausch",
+          "william-forsythe"
+        ]
+      }
+    },
+    {
+      "id": "george-balanchine",
+      "card": {
+        "id": "george-balanchine",
+        "title": "George Balanchine",
+        "filePath": "../samples/choreographers/george-balanchine.md",
+        "tags": [
+          "neoclassical",
+          "ballet",
+          "new-york-city-ballet",
+          "russian",
+          "pure-dance",
+          "musicality"
+        ],
+        "links": [
+          "sergei-diaghilev",
+          "michel-fokine",
+          "marius-petipa",
+          "jerome-robbins",
+          "peter-martins",
+          "christopher-wheeldon",
+          "igor-stravinsky",
+          "suzanne-farrell",
+          "lincoln-kirstein"
+        ],
+        "backlinks": [
+          "christopher-wheeldon",
+          "jerome-robbins",
+          "twyla-tharp",
+          "william-forsythe"
+        ]
+      }
+    },
+    {
+      "id": "isadora-duncan",
+      "card": {
+        "id": "isadora-duncan",
+        "title": "Isadora Duncan",
+        "filePath": "../samples/choreographers/isadora-duncan.md",
+        "tags": [
+          "pioneer",
+          "modern-dance",
+          "natural-movement",
+          "greek-inspired",
+          "revolutionary",
+          "emotional",
+          "freedom"
+        ],
+        "links": [
+          "martha-graham",
+          "doris-humphrey",
+          "alvin-ailey",
+          "merce-cunningham"
+        ],
+        "backlinks": [
+          "martha-graham"
+        ]
+      }
+    },
+    {
+      "id": "jerome-robbins",
+      "card": {
+        "id": "jerome-robbins",
+        "title": "Jerome Robbins",
+        "filePath": "../samples/choreographers/jerome-robbins.md",
+        "tags": [
+          "american",
+          "broadway",
+          "ballet",
+          "theatrical",
+          "storytelling",
+          "musical-theater",
+          "versatile"
+        ],
+        "links": [
+          "george-balanchine",
+          "martha-graham",
+          "philip-glass",
+          "twyla-tharp",
+          "susan-stroman",
+          "christopher-wheeldon",
+          "leonard-bernstein",
+          "stephen-sondheim"
+        ],
+        "backlinks": [
+          "christopher-wheeldon",
+          "george-balanchine",
+          "martha-graham",
+          "twyla-tharp"
+        ]
+      }
+    },
+    {
+      "id": "martha-graham",
+      "card": {
+        "id": "martha-graham",
+        "title": "Martha Graham",
+        "filePath": "../samples/choreographers/martha-graham.md",
+        "tags": [
+          "modern-dance",
+          "pioneer",
+          "technique",
+          "american",
+          "psychological"
+        ],
+        "links": [
+          "martha-graham-dance-company",
+          "isadora-duncan",
+          "merce-cunningham",
+          "paul-taylor",
+          "aaron-copland",
+          "louis-horst",
+          "jerome-robbins",
+          "twyla-tharp"
+        ],
+        "backlinks": [
+          "akram-khan",
+          "alvin-ailey",
+          "isadora-duncan",
+          "jerome-robbins",
+          "merce-cunningham",
+          "twyla-tharp"
+        ]
+      }
+    },
+    {
+      "id": "merce-cunningham",
+      "card": {
+        "id": "merce-cunningham",
+        "title": "Merce Cunningham",
+        "filePath": "../samples/choreographers/merce-cunningham.md",
+        "tags": [
+          "postmodern",
+          "chance-operations",
+          "experimental",
+          "technology",
+          "pure-movement",
+          "collaboration"
+        ],
+        "links": [
+          "martha-graham",
+          "john-cage",
+          "trisha-brown",
+          "lucinda-childs",
+          "robert-rauschenberg",
+          "jasper-johns",
+          "paul-taylor",
+          "william-forsythe"
+        ],
+        "backlinks": [
+          "isadora-duncan",
+          "martha-graham",
+          "twyla-tharp",
+          "william-forsythe"
+        ]
+      }
+    },
+    {
+      "id": "pina-bausch",
+      "card": {
+        "id": "pina-bausch",
+        "title": "Pina Bausch",
+        "filePath": "../samples/choreographers/pina-bausch.md",
+        "tags": [
+          "tanztheater",
+          "german",
+          "expressionist",
+          "theatrical",
+          "emotional",
+          "collaborative",
+          "european"
+        ],
+        "links": [
+          "kurt-jooss",
+          "mary-wigman",
+          "sasha-waltz",
+          "akram-khan",
+          "crystal-pite",
+          "thom-willems",
+          "william-forsythe",
+          "anne-teresa-de-keersmaeker"
+        ],
+        "backlinks": [
+          "akram-khan",
+          "crystal-pite",
+          "william-forsythe"
+        ]
+      }
+    },
+    {
+      "id": "twyla-tharp",
+      "card": {
+        "id": "twyla-tharp",
+        "title": "Twyla Tharp",
+        "filePath": "../samples/choreographers/twyla-tharp.md",
+        "tags": [
+          "crossover",
+          "fusion",
+          "versatile",
+          "innovative",
+          "popular-culture",
+          "ballet",
+          "broadway"
+        ],
+        "links": [
+          "martha-graham",
+          "merce-cunningham",
+          "jerome-robbins",
+          "george-balanchine",
+          "mikhail-baryshnikov",
+          "susan-stroman",
+          "christopher-wheeldon"
+        ],
+        "backlinks": [
+          "christopher-wheeldon",
+          "jerome-robbins",
+          "martha-graham"
+        ]
+      }
+    },
+    {
+      "id": "william-forsythe",
+      "card": {
+        "id": "william-forsythe",
+        "title": "William Forsythe",
+        "filePath": "../samples/choreographers/william-forsythe.md",
+        "tags": [
+          "neoclassical",
+          "experimental",
+          "technology",
+          "improvisation",
+          "installation",
+          "deconstruction"
+        ],
+        "links": [
+          "george-balanchine",
+          "merce-cunningham",
+          "pina-bausch",
+          "crystal-pite",
+          "akram-khan"
+        ],
+        "backlinks": [
+          "akram-khan",
+          "crystal-pite",
+          "merce-cunningham",
+          "pina-bausch"
+        ]
+      }
+    },
+    {
+      "id": "anger",
+      "card": {
+        "id": "anger",
+        "title": "Anger",
+        "filePath": "../samples/emotions/anger.md",
+        "tags": [
+          "negative",
+          "protective",
+          "activation",
+          "energy",
+          "boundary",
+          "justice",
+          "fight-flight"
+        ],
+        "links": [
+          "frustration",
+          "irritation",
+          "rage",
+          "fury",
+          "hurt",
+          "fear",
+          "disappointment",
+          "annoyance",
+          "wrath",
+          "resentment",
+          "bitterness",
+          "hostility",
+          "guilt",
+          "shame",
+          "determination",
+          "compassion",
+          "stress",
+          "anxiety"
+        ],
+        "backlinks": [
+          "anxiety",
+          "compassion",
+          "sadness",
+          "shame"
+        ]
+      }
+    },
+    {
+      "id": "anxiety",
+      "card": {
+        "id": "anxiety",
+        "title": "Anxiety",
+        "filePath": "../samples/emotions/anxiety.md",
+        "tags": [
+          "worry",
+          "future",
+          "uncertainty",
+          "anticipatory",
+          "physical",
+          "avoidance",
+          "management"
+        ],
+        "links": [
+          "fear",
+          "worry",
+          "stress",
+          "panic",
+          "anger",
+          "sadness",
+          "shame",
+          "depression",
+          "frustration",
+          "helplessness",
+          "acceptance",
+          "confidence",
+          "peace",
+          "courage",
+          "trust"
+        ],
+        "backlinks": [
+          "anger",
+          "fear",
+          "gratitude",
+          "shame"
+        ]
+      }
+    },
+    {
+      "id": "compassion",
+      "card": {
+        "id": "compassion",
+        "title": "Compassion",
+        "filePath": "../samples/emotions/compassion.md",
+        "tags": [
+          "empathy",
+          "kindness",
+          "suffering",
+          "helping",
+          "care",
+          "mercy",
+          "healing"
+        ],
+        "links": [
+          "empathy",
+          "kindness",
+          "mercy",
+          "love",
+          "suffering",
+          "shame",
+          "anger",
+          "acceptance",
+          "care",
+          "resentment",
+          "grief",
+          "loneliness",
+          "isolation"
+        ],
+        "backlinks": [
+          "anger",
+          "love"
+        ]
+      }
+    },
+    {
+      "id": "curiosity",
+      "card": {
+        "id": "curiosity",
+        "title": "Curiosity",
+        "filePath": "../samples/emotions/curiosity.md",
+        "tags": [
+          "learning",
+          "exploration",
+          "inquiry",
+          "discovery",
+          "growth",
+          "knowledge",
+          "wonder"
+        ],
+        "links": [
+          "wonder",
+          "interest",
+          "excitement",
+          "boredom",
+          "enthusiasm",
+          "satisfaction",
+          "openness",
+          "empathy",
+          "fear",
+          "confusion"
+        ],
+        "backlinks": [
+          "excitement"
+        ]
+      }
+    },
+    {
+      "id": "excitement",
+      "card": {
+        "id": "excitement",
+        "title": "Excitement",
+        "filePath": "../samples/emotions/excitement.md",
+        "tags": [
+          "energy",
+          "enthusiasm",
+          "anticipation",
+          "positive",
+          "stimulation",
+          "motivation",
+          "celebration"
+        ],
+        "links": [
+          "enthusiasm",
+          "anticipation",
+          "euphoria",
+          "joy",
+          "curiosity",
+          "boredom",
+          "fulfillment",
+          "passion",
+          "satisfaction",
+          "happiness"
+        ],
+        "backlinks": [
+          "curiosity",
+          "joy"
+        ]
+      }
+    },
+    {
+      "id": "fear",
+      "card": {
+        "id": "fear",
+        "title": "Fear",
+        "filePath": "../samples/emotions/fear.md",
+        "tags": [
+          "survival",
+          "protection",
+          "threat",
+          "primal",
+          "autonomic",
+          "avoidance",
+          "flight"
+        ],
+        "links": [
+          "anxiety",
+          "worry",
+          "panic",
+          "terror",
+          "phobia",
+          "nervousness",
+          "stress",
+          "helplessness",
+          "vulnerability",
+          "relief",
+          "trauma",
+          "courage",
+          "confidence"
+        ],
+        "backlinks": [
+          "anger",
+          "anxiety",
+          "curiosity",
+          "hope"
+        ]
+      }
+    },
+    {
+      "id": "gratitude",
+      "card": {
+        "id": "gratitude",
+        "title": "Gratitude",
+        "filePath": "../samples/emotions/gratitude.md",
+        "tags": [
+          "appreciation",
+          "recognition",
+          "thankfulness",
+          "well-being",
+          "positive",
+          "reciprocity",
+          "perspective"
+        ],
+        "links": [
+          "appreciation",
+          "thankfulness",
+          "joy",
+          "contentment",
+          "love",
+          "bitterness",
+          "generosity",
+          "peace",
+          "happiness",
+          "depression",
+          "empathy",
+          "anxiety",
+          "worry",
+          "hope"
+        ],
+        "backlinks": [
+          "joy",
+          "love"
+        ]
+      }
+    },
+    {
+      "id": "hope",
+      "card": {
+        "id": "hope",
+        "title": "Hope",
+        "filePath": "../samples/emotions/hope.md",
+        "tags": [
+          "optimism",
+          "future",
+          "goals",
+          "possibility",
+          "resilience",
+          "motivation",
+          "faith"
+        ],
+        "links": [
+          "optimism",
+          "faith",
+          "courage",
+          "determination",
+          "despair",
+          "sadness",
+          "fear",
+          "confidence",
+          "hopelessness",
+          "depression",
+          "joy",
+          "enthusiasm",
+          "peace",
+          "persistence",
+          "resilience",
+          "disappointment",
+          "fulfillment"
+        ],
+        "backlinks": [
+          "gratitude",
+          "sadness"
+        ]
+      }
+    },
+    {
+      "id": "joy",
+      "card": {
+        "id": "joy",
+        "title": "Joy",
+        "filePath": "../samples/emotions/joy.md",
+        "tags": [
+          "positive",
+          "happiness",
+          "well-being",
+          "energy",
+          "spontaneous",
+          "core-emotion"
+        ],
+        "links": [
+          "happiness",
+          "excitement",
+          "contentment",
+          "euphoria",
+          "serenity",
+          "delight",
+          "bliss",
+          "sadness",
+          "despair",
+          "melancholy",
+          "pleasure",
+          "satisfaction",
+          "cheerfulness",
+          "ecstasy",
+          "gratitude"
+        ],
+        "backlinks": [
+          "excitement",
+          "gratitude",
+          "hope",
+          "love"
+        ]
+      }
+    },
+    {
+      "id": "love",
+      "card": {
+        "id": "love",
+        "title": "Love",
+        "filePath": "../samples/emotions/love.md",
+        "tags": [
+          "connection",
+          "affection",
+          "bond",
+          "intimacy",
+          "care",
+          "relationship",
+          "universal"
+        ],
+        "links": [
+          "affection",
+          "compassion",
+          "attachment",
+          "joy",
+          "gratitude",
+          "passion",
+          "happiness",
+          "security",
+          "fulfillment",
+          "jealousy",
+          "heartbreak",
+          "vulnerability",
+          "empathy",
+          "generosity",
+          "wisdom",
+          "loneliness",
+          "courage"
+        ],
+        "backlinks": [
+          "compassion",
+          "gratitude"
+        ]
+      }
+    },
+    {
+      "id": "sadness",
+      "card": {
+        "id": "sadness",
+        "title": "Sadness",
+        "filePath": "../samples/emotions/sadness.md",
+        "tags": [
+          "loss",
+          "grief",
+          "processing",
+          "adaptation",
+          "support",
+          "natural",
+          "healing"
+        ],
+        "links": [
+          "grief",
+          "melancholy",
+          "sorrow",
+          "depression",
+          "anger",
+          "disappointment",
+          "nostalgia",
+          "heartbreak",
+          "loneliness",
+          "despair",
+          "acceptance",
+          "peace",
+          "hope"
+        ],
+        "backlinks": [
+          "anxiety",
+          "hope",
+          "joy"
+        ]
+      }
+    },
+    {
+      "id": "shame",
+      "card": {
+        "id": "shame",
+        "title": "Shame",
+        "filePath": "../samples/emotions/shame.md",
+        "tags": [
+          "self-worth",
+          "inadequacy",
+          "painful",
+          "core-self",
+          "healing",
+          "vulnerability",
+          "compassion"
+        ],
+        "links": [
+          "guilt",
+          "humiliation",
+          "embarrassment",
+          "anger",
+          "depression",
+          "self-hatred",
+          "regret",
+          "self-compassion",
+          "acceptance",
+          "vulnerability",
+          "empathy",
+          "confidence",
+          "anxiety"
+        ],
+        "backlinks": [
+          "anger",
+          "anxiety",
+          "compassion"
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "akram-khan",
+      "to": "martha-graham",
+      "type": "link"
+    },
+    {
+      "from": "akram-khan",
+      "to": "pina-bausch",
+      "type": "link"
+    },
+    {
+      "from": "akram-khan",
+      "to": "william-forsythe",
+      "type": "link"
+    },
+    {
+      "from": "akram-khan",
+      "to": "crystal-pite",
+      "type": "link"
+    },
+    {
+      "from": "alvin-ailey",
+      "to": "martha-graham",
+      "type": "link"
+    },
+    {
+      "from": "christopher-wheeldon",
+      "to": "george-balanchine",
+      "type": "link"
+    },
+    {
+      "from": "christopher-wheeldon",
+      "to": "jerome-robbins",
+      "type": "link"
+    },
+    {
+      "from": "christopher-wheeldon",
+      "to": "twyla-tharp",
+      "type": "link"
+    },
+    {
+      "from": "crystal-pite",
+      "to": "william-forsythe",
+      "type": "link"
+    },
+    {
+      "from": "crystal-pite",
+      "to": "pina-bausch",
+      "type": "link"
+    },
+    {
+      "from": "crystal-pite",
+      "to": "akram-khan",
+      "type": "link"
+    },
+    {
+      "from": "george-balanchine",
+      "to": "jerome-robbins",
+      "type": "link"
+    },
+    {
+      "from": "george-balanchine",
+      "to": "christopher-wheeldon",
+      "type": "link"
+    },
+    {
+      "from": "isadora-duncan",
+      "to": "martha-graham",
+      "type": "link"
+    },
+    {
+      "from": "isadora-duncan",
+      "to": "alvin-ailey",
+      "type": "link"
+    },
+    {
+      "from": "isadora-duncan",
+      "to": "merce-cunningham",
+      "type": "link"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "george-balanchine",
+      "type": "link"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "martha-graham",
+      "type": "link"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "twyla-tharp",
+      "type": "link"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "christopher-wheeldon",
+      "type": "link"
+    },
+    {
+      "from": "martha-graham",
+      "to": "isadora-duncan",
+      "type": "link"
+    },
+    {
+      "from": "martha-graham",
+      "to": "merce-cunningham",
+      "type": "link"
+    },
+    {
+      "from": "martha-graham",
+      "to": "jerome-robbins",
+      "type": "link"
+    },
+    {
+      "from": "martha-graham",
+      "to": "twyla-tharp",
+      "type": "link"
+    },
+    {
+      "from": "merce-cunningham",
+      "to": "martha-graham",
+      "type": "link"
+    },
+    {
+      "from": "merce-cunningham",
+      "to": "william-forsythe",
+      "type": "link"
+    },
+    {
+      "from": "pina-bausch",
+      "to": "akram-khan",
+      "type": "link"
+    },
+    {
+      "from": "pina-bausch",
+      "to": "crystal-pite",
+      "type": "link"
+    },
+    {
+      "from": "pina-bausch",
+      "to": "william-forsythe",
+      "type": "link"
+    },
+    {
+      "from": "twyla-tharp",
+      "to": "martha-graham",
+      "type": "link"
+    },
+    {
+      "from": "twyla-tharp",
+      "to": "merce-cunningham",
+      "type": "link"
+    },
+    {
+      "from": "twyla-tharp",
+      "to": "jerome-robbins",
+      "type": "link"
+    },
+    {
+      "from": "twyla-tharp",
+      "to": "george-balanchine",
+      "type": "link"
+    },
+    {
+      "from": "twyla-tharp",
+      "to": "christopher-wheeldon",
+      "type": "link"
+    },
+    {
+      "from": "william-forsythe",
+      "to": "george-balanchine",
+      "type": "link"
+    },
+    {
+      "from": "william-forsythe",
+      "to": "merce-cunningham",
+      "type": "link"
+    },
+    {
+      "from": "william-forsythe",
+      "to": "pina-bausch",
+      "type": "link"
+    },
+    {
+      "from": "william-forsythe",
+      "to": "crystal-pite",
+      "type": "link"
+    },
+    {
+      "from": "william-forsythe",
+      "to": "akram-khan",
+      "type": "link"
+    },
+    {
+      "from": "anger",
+      "to": "fear",
+      "type": "link"
+    },
+    {
+      "from": "anger",
+      "to": "shame",
+      "type": "link"
+    },
+    {
+      "from": "anger",
+      "to": "compassion",
+      "type": "link"
+    },
+    {
+      "from": "anger",
+      "to": "anxiety",
+      "type": "link"
+    },
+    {
+      "from": "anxiety",
+      "to": "fear",
+      "type": "link"
+    },
+    {
+      "from": "anxiety",
+      "to": "anger",
+      "type": "link"
+    },
+    {
+      "from": "anxiety",
+      "to": "sadness",
+      "type": "link"
+    },
+    {
+      "from": "anxiety",
+      "to": "shame",
+      "type": "link"
+    },
+    {
+      "from": "compassion",
+      "to": "love",
+      "type": "link"
+    },
+    {
+      "from": "compassion",
+      "to": "shame",
+      "type": "link"
+    },
+    {
+      "from": "compassion",
+      "to": "anger",
+      "type": "link"
+    },
+    {
+      "from": "curiosity",
+      "to": "excitement",
+      "type": "link"
+    },
+    {
+      "from": "curiosity",
+      "to": "fear",
+      "type": "link"
+    },
+    {
+      "from": "excitement",
+      "to": "joy",
+      "type": "link"
+    },
+    {
+      "from": "excitement",
+      "to": "curiosity",
+      "type": "link"
+    },
+    {
+      "from": "fear",
+      "to": "anxiety",
+      "type": "link"
+    },
+    {
+      "from": "gratitude",
+      "to": "joy",
+      "type": "link"
+    },
+    {
+      "from": "gratitude",
+      "to": "love",
+      "type": "link"
+    },
+    {
+      "from": "gratitude",
+      "to": "anxiety",
+      "type": "link"
+    },
+    {
+      "from": "gratitude",
+      "to": "hope",
+      "type": "link"
+    },
+    {
+      "from": "hope",
+      "to": "sadness",
+      "type": "link"
+    },
+    {
+      "from": "hope",
+      "to": "fear",
+      "type": "link"
+    },
+    {
+      "from": "hope",
+      "to": "joy",
+      "type": "link"
+    },
+    {
+      "from": "joy",
+      "to": "excitement",
+      "type": "link"
+    },
+    {
+      "from": "joy",
+      "to": "sadness",
+      "type": "link"
+    },
+    {
+      "from": "joy",
+      "to": "gratitude",
+      "type": "link"
+    },
+    {
+      "from": "love",
+      "to": "compassion",
+      "type": "link"
+    },
+    {
+      "from": "love",
+      "to": "joy",
+      "type": "link"
+    },
+    {
+      "from": "love",
+      "to": "gratitude",
+      "type": "link"
+    },
+    {
+      "from": "sadness",
+      "to": "anger",
+      "type": "link"
+    },
+    {
+      "from": "sadness",
+      "to": "hope",
+      "type": "link"
+    },
+    {
+      "from": "shame",
+      "to": "anger",
+      "type": "link"
+    },
+    {
+      "from": "shame",
+      "to": "anxiety",
+      "type": "link"
+    },
+    {
+      "from": "martha-graham",
+      "to": "akram-khan",
+      "type": "backlink"
+    },
+    {
+      "from": "martha-graham",
+      "to": "alvin-ailey",
+      "type": "backlink"
+    },
+    {
+      "from": "martha-graham",
+      "to": "isadora-duncan",
+      "type": "backlink"
+    },
+    {
+      "from": "martha-graham",
+      "to": "jerome-robbins",
+      "type": "backlink"
+    },
+    {
+      "from": "martha-graham",
+      "to": "merce-cunningham",
+      "type": "backlink"
+    },
+    {
+      "from": "martha-graham",
+      "to": "twyla-tharp",
+      "type": "backlink"
+    },
+    {
+      "from": "pina-bausch",
+      "to": "akram-khan",
+      "type": "backlink"
+    },
+    {
+      "from": "pina-bausch",
+      "to": "crystal-pite",
+      "type": "backlink"
+    },
+    {
+      "from": "pina-bausch",
+      "to": "william-forsythe",
+      "type": "backlink"
+    },
+    {
+      "from": "william-forsythe",
+      "to": "akram-khan",
+      "type": "backlink"
+    },
+    {
+      "from": "william-forsythe",
+      "to": "crystal-pite",
+      "type": "backlink"
+    },
+    {
+      "from": "william-forsythe",
+      "to": "merce-cunningham",
+      "type": "backlink"
+    },
+    {
+      "from": "william-forsythe",
+      "to": "pina-bausch",
+      "type": "backlink"
+    },
+    {
+      "from": "crystal-pite",
+      "to": "akram-khan",
+      "type": "backlink"
+    },
+    {
+      "from": "crystal-pite",
+      "to": "pina-bausch",
+      "type": "backlink"
+    },
+    {
+      "from": "crystal-pite",
+      "to": "william-forsythe",
+      "type": "backlink"
+    },
+    {
+      "from": "george-balanchine",
+      "to": "christopher-wheeldon",
+      "type": "backlink"
+    },
+    {
+      "from": "george-balanchine",
+      "to": "jerome-robbins",
+      "type": "backlink"
+    },
+    {
+      "from": "george-balanchine",
+      "to": "twyla-tharp",
+      "type": "backlink"
+    },
+    {
+      "from": "george-balanchine",
+      "to": "william-forsythe",
+      "type": "backlink"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "christopher-wheeldon",
+      "type": "backlink"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "george-balanchine",
+      "type": "backlink"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "martha-graham",
+      "type": "backlink"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "twyla-tharp",
+      "type": "backlink"
+    },
+    {
+      "from": "twyla-tharp",
+      "to": "christopher-wheeldon",
+      "type": "backlink"
+    },
+    {
+      "from": "twyla-tharp",
+      "to": "jerome-robbins",
+      "type": "backlink"
+    },
+    {
+      "from": "twyla-tharp",
+      "to": "martha-graham",
+      "type": "backlink"
+    },
+    {
+      "from": "akram-khan",
+      "to": "crystal-pite",
+      "type": "backlink"
+    },
+    {
+      "from": "akram-khan",
+      "to": "pina-bausch",
+      "type": "backlink"
+    },
+    {
+      "from": "akram-khan",
+      "to": "william-forsythe",
+      "type": "backlink"
+    },
+    {
+      "from": "christopher-wheeldon",
+      "to": "george-balanchine",
+      "type": "backlink"
+    },
+    {
+      "from": "christopher-wheeldon",
+      "to": "jerome-robbins",
+      "type": "backlink"
+    },
+    {
+      "from": "christopher-wheeldon",
+      "to": "twyla-tharp",
+      "type": "backlink"
+    },
+    {
+      "from": "alvin-ailey",
+      "to": "isadora-duncan",
+      "type": "backlink"
+    },
+    {
+      "from": "merce-cunningham",
+      "to": "isadora-duncan",
+      "type": "backlink"
+    },
+    {
+      "from": "merce-cunningham",
+      "to": "martha-graham",
+      "type": "backlink"
+    },
+    {
+      "from": "merce-cunningham",
+      "to": "twyla-tharp",
+      "type": "backlink"
+    },
+    {
+      "from": "merce-cunningham",
+      "to": "william-forsythe",
+      "type": "backlink"
+    },
+    {
+      "from": "isadora-duncan",
+      "to": "martha-graham",
+      "type": "backlink"
+    },
+    {
+      "from": "fear",
+      "to": "anger",
+      "type": "backlink"
+    },
+    {
+      "from": "fear",
+      "to": "anxiety",
+      "type": "backlink"
+    },
+    {
+      "from": "fear",
+      "to": "curiosity",
+      "type": "backlink"
+    },
+    {
+      "from": "fear",
+      "to": "hope",
+      "type": "backlink"
+    },
+    {
+      "from": "shame",
+      "to": "anger",
+      "type": "backlink"
+    },
+    {
+      "from": "shame",
+      "to": "anxiety",
+      "type": "backlink"
+    },
+    {
+      "from": "shame",
+      "to": "compassion",
+      "type": "backlink"
+    },
+    {
+      "from": "compassion",
+      "to": "anger",
+      "type": "backlink"
+    },
+    {
+      "from": "compassion",
+      "to": "love",
+      "type": "backlink"
+    },
+    {
+      "from": "anxiety",
+      "to": "anger",
+      "type": "backlink"
+    },
+    {
+      "from": "anxiety",
+      "to": "fear",
+      "type": "backlink"
+    },
+    {
+      "from": "anxiety",
+      "to": "gratitude",
+      "type": "backlink"
+    },
+    {
+      "from": "anxiety",
+      "to": "shame",
+      "type": "backlink"
+    },
+    {
+      "from": "anger",
+      "to": "anxiety",
+      "type": "backlink"
+    },
+    {
+      "from": "anger",
+      "to": "compassion",
+      "type": "backlink"
+    },
+    {
+      "from": "anger",
+      "to": "sadness",
+      "type": "backlink"
+    },
+    {
+      "from": "anger",
+      "to": "shame",
+      "type": "backlink"
+    },
+    {
+      "from": "sadness",
+      "to": "anxiety",
+      "type": "backlink"
+    },
+    {
+      "from": "sadness",
+      "to": "hope",
+      "type": "backlink"
+    },
+    {
+      "from": "sadness",
+      "to": "joy",
+      "type": "backlink"
+    },
+    {
+      "from": "love",
+      "to": "compassion",
+      "type": "backlink"
+    },
+    {
+      "from": "love",
+      "to": "gratitude",
+      "type": "backlink"
+    },
+    {
+      "from": "excitement",
+      "to": "curiosity",
+      "type": "backlink"
+    },
+    {
+      "from": "excitement",
+      "to": "joy",
+      "type": "backlink"
+    },
+    {
+      "from": "joy",
+      "to": "excitement",
+      "type": "backlink"
+    },
+    {
+      "from": "joy",
+      "to": "gratitude",
+      "type": "backlink"
+    },
+    {
+      "from": "joy",
+      "to": "hope",
+      "type": "backlink"
+    },
+    {
+      "from": "joy",
+      "to": "love",
+      "type": "backlink"
+    },
+    {
+      "from": "curiosity",
+      "to": "excitement",
+      "type": "backlink"
+    },
+    {
+      "from": "hope",
+      "to": "gratitude",
+      "type": "backlink"
+    },
+    {
+      "from": "hope",
+      "to": "sadness",
+      "type": "backlink"
+    },
+    {
+      "from": "gratitude",
+      "to": "joy",
+      "type": "backlink"
+    },
+    {
+      "from": "gratitude",
+      "to": "love",
+      "type": "backlink"
+    },
+    {
+      "from": "akram-khan",
+      "to": "crystal-pite",
+      "type": "tag"
+    },
+    {
+      "from": "crystal-pite",
+      "to": "akram-khan",
+      "type": "tag"
+    },
+    {
+      "from": "akram-khan",
+      "to": "twyla-tharp",
+      "type": "tag"
+    },
+    {
+      "from": "twyla-tharp",
+      "to": "akram-khan",
+      "type": "tag"
+    },
+    {
+      "from": "akram-khan",
+      "to": "christopher-wheeldon",
+      "type": "tag"
+    },
+    {
+      "from": "christopher-wheeldon",
+      "to": "akram-khan",
+      "type": "tag"
+    },
+    {
+      "from": "akram-khan",
+      "to": "crystal-pite",
+      "type": "tag"
+    },
+    {
+      "from": "crystal-pite",
+      "to": "akram-khan",
+      "type": "tag"
+    },
+    {
+      "from": "akram-khan",
+      "to": "jerome-robbins",
+      "type": "tag"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "akram-khan",
+      "type": "tag"
+    },
+    {
+      "from": "christopher-wheeldon",
+      "to": "crystal-pite",
+      "type": "tag"
+    },
+    {
+      "from": "crystal-pite",
+      "to": "christopher-wheeldon",
+      "type": "tag"
+    },
+    {
+      "from": "christopher-wheeldon",
+      "to": "jerome-robbins",
+      "type": "tag"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "christopher-wheeldon",
+      "type": "tag"
+    },
+    {
+      "from": "crystal-pite",
+      "to": "jerome-robbins",
+      "type": "tag"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "crystal-pite",
+      "type": "tag"
+    },
+    {
+      "from": "alvin-ailey",
+      "to": "crystal-pite",
+      "type": "tag"
+    },
+    {
+      "from": "crystal-pite",
+      "to": "alvin-ailey",
+      "type": "tag"
+    },
+    {
+      "from": "alvin-ailey",
+      "to": "isadora-duncan",
+      "type": "tag"
+    },
+    {
+      "from": "isadora-duncan",
+      "to": "alvin-ailey",
+      "type": "tag"
+    },
+    {
+      "from": "alvin-ailey",
+      "to": "pina-bausch",
+      "type": "tag"
+    },
+    {
+      "from": "pina-bausch",
+      "to": "alvin-ailey",
+      "type": "tag"
+    },
+    {
+      "from": "crystal-pite",
+      "to": "isadora-duncan",
+      "type": "tag"
+    },
+    {
+      "from": "isadora-duncan",
+      "to": "crystal-pite",
+      "type": "tag"
+    },
+    {
+      "from": "crystal-pite",
+      "to": "pina-bausch",
+      "type": "tag"
+    },
+    {
+      "from": "pina-bausch",
+      "to": "crystal-pite",
+      "type": "tag"
+    },
+    {
+      "from": "isadora-duncan",
+      "to": "pina-bausch",
+      "type": "tag"
+    },
+    {
+      "from": "pina-bausch",
+      "to": "isadora-duncan",
+      "type": "tag"
+    },
+    {
+      "from": "alvin-ailey",
+      "to": "isadora-duncan",
+      "type": "tag"
+    },
+    {
+      "from": "isadora-duncan",
+      "to": "alvin-ailey",
+      "type": "tag"
+    },
+    {
+      "from": "alvin-ailey",
+      "to": "martha-graham",
+      "type": "tag"
+    },
+    {
+      "from": "martha-graham",
+      "to": "alvin-ailey",
+      "type": "tag"
+    },
+    {
+      "from": "isadora-duncan",
+      "to": "martha-graham",
+      "type": "tag"
+    },
+    {
+      "from": "martha-graham",
+      "to": "isadora-duncan",
+      "type": "tag"
+    },
+    {
+      "from": "alvin-ailey",
+      "to": "excitement",
+      "type": "tag"
+    },
+    {
+      "from": "excitement",
+      "to": "alvin-ailey",
+      "type": "tag"
+    },
+    {
+      "from": "christopher-wheeldon",
+      "to": "george-balanchine",
+      "type": "tag"
+    },
+    {
+      "from": "george-balanchine",
+      "to": "christopher-wheeldon",
+      "type": "tag"
+    },
+    {
+      "from": "christopher-wheeldon",
+      "to": "william-forsythe",
+      "type": "tag"
+    },
+    {
+      "from": "william-forsythe",
+      "to": "christopher-wheeldon",
+      "type": "tag"
+    },
+    {
+      "from": "george-balanchine",
+      "to": "william-forsythe",
+      "type": "tag"
+    },
+    {
+      "from": "william-forsythe",
+      "to": "george-balanchine",
+      "type": "tag"
+    },
+    {
+      "from": "christopher-wheeldon",
+      "to": "crystal-pite",
+      "type": "tag"
+    },
+    {
+      "from": "crystal-pite",
+      "to": "christopher-wheeldon",
+      "type": "tag"
+    },
+    {
+      "from": "christopher-wheeldon",
+      "to": "jerome-robbins",
+      "type": "tag"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "christopher-wheeldon",
+      "type": "tag"
+    },
+    {
+      "from": "christopher-wheeldon",
+      "to": "pina-bausch",
+      "type": "tag"
+    },
+    {
+      "from": "pina-bausch",
+      "to": "christopher-wheeldon",
+      "type": "tag"
+    },
+    {
+      "from": "crystal-pite",
+      "to": "jerome-robbins",
+      "type": "tag"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "crystal-pite",
+      "type": "tag"
+    },
+    {
+      "from": "crystal-pite",
+      "to": "pina-bausch",
+      "type": "tag"
+    },
+    {
+      "from": "pina-bausch",
+      "to": "crystal-pite",
+      "type": "tag"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "pina-bausch",
+      "type": "tag"
+    },
+    {
+      "from": "pina-bausch",
+      "to": "jerome-robbins",
+      "type": "tag"
+    },
+    {
+      "from": "christopher-wheeldon",
+      "to": "jerome-robbins",
+      "type": "tag"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "christopher-wheeldon",
+      "type": "tag"
+    },
+    {
+      "from": "christopher-wheeldon",
+      "to": "twyla-tharp",
+      "type": "tag"
+    },
+    {
+      "from": "twyla-tharp",
+      "to": "christopher-wheeldon",
+      "type": "tag"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "twyla-tharp",
+      "type": "tag"
+    },
+    {
+      "from": "twyla-tharp",
+      "to": "jerome-robbins",
+      "type": "tag"
+    },
+    {
+      "from": "christopher-wheeldon",
+      "to": "twyla-tharp",
+      "type": "tag"
+    },
+    {
+      "from": "twyla-tharp",
+      "to": "christopher-wheeldon",
+      "type": "tag"
+    },
+    {
+      "from": "george-balanchine",
+      "to": "jerome-robbins",
+      "type": "tag"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "george-balanchine",
+      "type": "tag"
+    },
+    {
+      "from": "george-balanchine",
+      "to": "twyla-tharp",
+      "type": "tag"
+    },
+    {
+      "from": "twyla-tharp",
+      "to": "george-balanchine",
+      "type": "tag"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "twyla-tharp",
+      "type": "tag"
+    },
+    {
+      "from": "twyla-tharp",
+      "to": "jerome-robbins",
+      "type": "tag"
+    },
+    {
+      "from": "isadora-duncan",
+      "to": "martha-graham",
+      "type": "tag"
+    },
+    {
+      "from": "martha-graham",
+      "to": "isadora-duncan",
+      "type": "tag"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "martha-graham",
+      "type": "tag"
+    },
+    {
+      "from": "martha-graham",
+      "to": "jerome-robbins",
+      "type": "tag"
+    },
+    {
+      "from": "jerome-robbins",
+      "to": "twyla-tharp",
+      "type": "tag"
+    },
+    {
+      "from": "twyla-tharp",
+      "to": "jerome-robbins",
+      "type": "tag"
+    },
+    {
+      "from": "merce-cunningham",
+      "to": "william-forsythe",
+      "type": "tag"
+    },
+    {
+      "from": "william-forsythe",
+      "to": "merce-cunningham",
+      "type": "tag"
+    },
+    {
+      "from": "merce-cunningham",
+      "to": "william-forsythe",
+      "type": "tag"
+    },
+    {
+      "from": "william-forsythe",
+      "to": "merce-cunningham",
+      "type": "tag"
+    },
+    {
+      "from": "anger",
+      "to": "excitement",
+      "type": "tag"
+    },
+    {
+      "from": "excitement",
+      "to": "anger",
+      "type": "tag"
+    },
+    {
+      "from": "anger",
+      "to": "joy",
+      "type": "tag"
+    },
+    {
+      "from": "joy",
+      "to": "anger",
+      "type": "tag"
+    },
+    {
+      "from": "excitement",
+      "to": "joy",
+      "type": "tag"
+    },
+    {
+      "from": "joy",
+      "to": "excitement",
+      "type": "tag"
+    },
+    {
+      "from": "anxiety",
+      "to": "hope",
+      "type": "tag"
+    },
+    {
+      "from": "hope",
+      "to": "anxiety",
+      "type": "tag"
+    },
+    {
+      "from": "anxiety",
+      "to": "fear",
+      "type": "tag"
+    },
+    {
+      "from": "fear",
+      "to": "anxiety",
+      "type": "tag"
+    },
+    {
+      "from": "compassion",
+      "to": "love",
+      "type": "tag"
+    },
+    {
+      "from": "love",
+      "to": "compassion",
+      "type": "tag"
+    },
+    {
+      "from": "compassion",
+      "to": "sadness",
+      "type": "tag"
+    },
+    {
+      "from": "sadness",
+      "to": "compassion",
+      "type": "tag"
+    },
+    {
+      "from": "compassion",
+      "to": "shame",
+      "type": "tag"
+    },
+    {
+      "from": "shame",
+      "to": "compassion",
+      "type": "tag"
+    },
+    {
+      "from": "sadness",
+      "to": "shame",
+      "type": "tag"
+    },
+    {
+      "from": "shame",
+      "to": "sadness",
+      "type": "tag"
+    },
+    {
+      "from": "excitement",
+      "to": "gratitude",
+      "type": "tag"
+    },
+    {
+      "from": "gratitude",
+      "to": "excitement",
+      "type": "tag"
+    },
+    {
+      "from": "excitement",
+      "to": "joy",
+      "type": "tag"
+    },
+    {
+      "from": "joy",
+      "to": "excitement",
+      "type": "tag"
+    },
+    {
+      "from": "gratitude",
+      "to": "joy",
+      "type": "tag"
+    },
+    {
+      "from": "joy",
+      "to": "gratitude",
+      "type": "tag"
+    },
+    {
+      "from": "excitement",
+      "to": "hope",
+      "type": "tag"
+    },
+    {
+      "from": "hope",
+      "to": "excitement",
+      "type": "tag"
+    },
+    {
+      "from": "gratitude",
+      "to": "joy",
+      "type": "tag"
+    },
+    {
+      "from": "joy",
+      "to": "gratitude",
+      "type": "tag"
+    }
+  ]
+}

@@ -168,6 +168,45 @@ const mermaidContent = generator.exportToMermaid(graph);
 fs.writeFileSync('graph.mmd', mermaidContent);
 ```
 
+## Examples
+
+See the `examples/` directory for comprehensive demonstrations:
+
+```bash
+# Run simple demo
+cd examples && node simple-demo.js
+
+# Run full sample program  
+cd examples && node sample-usage.js
+```
+
+**Sample Output:**
+```
+🎭 Graph Cards - Simple Demo
+
+🩰 Choreographers Dataset:
+   Cards: 12
+   Connections: 154
+   Density: 116.7%
+
+😊 Emotions Dataset:
+   Cards: 12
+   Connections: 94
+   Density: 71.2%
+
+💫 Sample Card - Joy:
+   Title: Joy
+   Links: happiness, excitement, contentment...
+   Tags: positive, happiness, well-being, energy
+```
+
+The examples demonstrate:
+- **Dataset Analysis** - Complete analytics for both sample datasets
+- **Individual Card Exploration** - Deep-dive into specific cards and relationships
+- **Cross-Dataset Analysis** - Combining multiple markdown datasets  
+- **Export Demonstrations** - JSON, DOT, and Mermaid format generation
+- **Pathfinding** - Finding connections between cards across the graph
+
 ## Development & Testing
 
 ### Running Tests
