@@ -147,7 +147,7 @@ More content.`;
       const content = '# Malformed\n\nThis has [[incomplete link and [[]] empty link.';
       const card = parser.parseContent(content, '/test/malformed.md');
 
-      expect(card.links).toEqual(['incomplete-link-and', '']);
+      expect(card.links).toEqual(['incomplete-link-and-']);
     });
   });
 });

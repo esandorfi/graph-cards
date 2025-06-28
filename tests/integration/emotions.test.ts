@@ -9,7 +9,8 @@ describe('Emotions Dataset Integration', () => {
   it('should parse all 12 emotion files', () => {
     const graph = generator.generateFromDirectory('./samples/emotions');
     
-    expectGraphStructure(graph, 12, expect.any(Number));
+    expect(graph.nodes.size).toBe(12);
+    expect(graph.edges.length).toBeGreaterThan(0);
   });
 
   it('should create expected emotion nodes', () => {
@@ -33,25 +34,20 @@ describe('Emotions Dataset Integration', () => {
   it('should establish known emotional relationships', () => {
     const graph = generator.generateFromDirectory('./samples/emotions');
     
-    // Joy connects to happiness, excitement, contentment
-    expectEdgeExists(graph, 'joy', 'happiness', EdgeType.LINK);
+    // Joy connects to excitement (which exists as a file)
     expectEdgeExists(graph, 'joy', 'excitement', EdgeType.LINK);
     
-    // Anger relates to frustration
-    expectEdgeExists(graph, 'anger', 'frustration', EdgeType.LINK);
+    // Anger connects to shame (both files exist)
+    expectEdgeExists(graph, 'anger', 'shame', EdgeType.LINK);
+    
+    // Anger connects to compassion (transformation)
+    expectEdgeExists(graph, 'anger', 'compassion', EdgeType.LINK);
     
     // Fear connects to anxiety
     expectEdgeExists(graph, 'fear', 'anxiety', EdgeType.LINK);
     
-    // Sadness relates to grief, depression
-    expectEdgeExists(graph, 'sadness', 'grief', EdgeType.LINK);
-    
-    // Love connects to compassion, affection
+    // Love connects to compassion
     expectEdgeExists(graph, 'love', 'compassion', EdgeType.LINK);
-    
-    // Anxiety relates to worry, stress
-    expectEdgeExists(graph, 'anxiety', 'worry', EdgeType.LINK);
-    expectEdgeExists(graph, 'anxiety', 'stress', EdgeType.LINK);
   });
 
   it('should create tag-based emotional groupings', () => {

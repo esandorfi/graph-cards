@@ -27,6 +27,6 @@ Anger relates closely to [[frustration]], [[irritation]], and can escalate to [[
 - Healthy expressions: assertiveness, boundary-setting
 - Problematic patterns: aggression, violence, passive-aggression
 
-Anger often transitions to [[guilt]] or [[shame]] after expression, or can be channeled into [[determination]] for positive change. It frequently co-occurs with [[stress]] and [[anxiety]].
+Anger often transitions to [[guilt]] or [[shame]] after expression, or can be channeled into [[determination]] for positive change. Through understanding and healing work, anger can transform into [[compassion]] and empathy. It frequently co-occurs with [[stress]] and [[anxiety]].
 
 #negative #protective #activation #energy #boundary #justice #fight-flight

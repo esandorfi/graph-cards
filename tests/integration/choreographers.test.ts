@@ -9,7 +9,8 @@ describe('Choreographers Dataset Integration', () => {
   it('should parse all 12 choreographer files', () => {
     const graph = generator.generateFromDirectory('./samples/choreographers');
     
-    expectGraphStructure(graph, 12, expect.any(Number));
+    expect(graph.nodes.size).toBe(12);
+    expect(graph.edges.length).toBeGreaterThan(0);
   });
 
   it('should create expected choreographer nodes', () => {

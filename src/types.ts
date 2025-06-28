@@ -44,3 +44,8 @@ export interface GraphOptions {
   includeTags?: boolean;
   weightByFrequency?: boolean;
 }
+
+export interface GeneratorOptions {
+  parser?: ParserOptions;
+  graph?: GraphOptions;
+}
