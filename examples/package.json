@@ -5,8 +5,8 @@
   "main": "sample-usage.js",
   "scripts": {
 
-    "demo.simple": "node demo-simple.js",
-    "demo": "node demo-output.js"
+    "demo.dance": "node demo-dataset.js choreographers",
+    "demo.emotions": "node demo-dataset.js emotions"
 
   },
   "dependencies": {

@@ -9,9 +9,13 @@ This directory contains example programs demonstrating how to use the graph-card
 cd ..
 npm run build
 
-# Run the demo
+# Run a dataset demo
 cd examples
-npm run demo
+# For choreographers dataset
+npm run demo.dance
+
+# For emotions dataset
+npm run demo.emotions
 ```
 
 ## What the Sample Program Does
